@@ -1,0 +1,258 @@
+*{
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+	overflow-x:hidden;
+}
+
+/************LARGE DEVICES ONLY**********/
+/*@media (min-width: 1200px) {*/
+/* HEADER */
+header{
+
+}
+#fullpic{
+	height:100vh;
+}
+.verticalcenter{
+	transform: translate(-50%, -50%);
+	position: absolute;
+	top: 50%;
+	left:50%;
+	overflow: hidden;
+}
+.verticalcenter a:link{
+	text-decoration: none;
+	color: #7891AB;
+	font-weight: bold;
+}
+.verticalcenter a:hover, a:active {
+	color:#9F5234;
+}
+ul{
+	transform: translate(-50%, -50%);
+	position: absolute;
+	top: 50%;
+	left:50%;
+	overflow: hidden;
+	list-style-type: none;
+	display:table;
+	margin-top: 50px;
+	position:relative;
+	max-width: 100%;
+}
+hr{
+	transform: translate(-50%, -50%);
+	position: absolute;
+	left:50%;
+	overflow: hidden;
+	width:600px;
+	color:lightgray;
+}
+header li{
+	display: inline;
+	font-family:"Work Sans";
+	padding: 20px;
+	height:auto;
+}
+li a:link {
+	text-decoration: none;
+	color: #7891AB;
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: lighter;
+}
+li a:visited{
+	color: #7891AB;
+}
+li a:hover, a:active {
+	color:#9F5234;
+}
+#fullpic > img{
+	height:30vw;
+	padding-right:45vw;
+	padding-top:10vh;
+}
+.icon {
+	transform: translate(-50%, -50%);
+	position: absolute;
+	top: 95vh;
+	margin-left:calc(50%);
+	overflow: hidden;
+}
+.icon img {
+	max-height: 25px; 
+	width: auto;
+	display: inline-block;
+	background-color: gray;
+	margin:0 5px 0 5px;
+}
+.icon img:hover {
+	background-color: #9F5234;
+	transition: 0.5s;
+}
+.icon a{
+	text-decoration: none;
+}
+.verticalcenter h1{
+	float:left;
+	padding-top:10vh;
+	padding-bottom: 30px;
+	padding-left:30vw;
+	font-size: 3em;
+	color:gray;
+	text-align: left;
+	font-weight: bolder;
+	overflow:hidden;
+	width: 70vw;
+}
+.verticalcenter h2{
+	padding-left:30vw;
+	font-size: 1.2em;
+	font-weight: lighter;
+	color:black;
+	text-align: left;
+	overflow:hidden;
+}
+
+/* INTRO */
+#darkbody {
+	clear:both
+	text-align: left;
+	padding:60px 20% 60px 20%;
+	background-color: #202020;
+	height: auto;
+	overflow:auto;
+	width:100%;
+}
+#darkbody h1 {
+	color:dimgray;
+	padding-bottom: 30px;
+}
+#darkbody p {
+	color:white;
+	font-size: 1.1em;
+}
+/* 3-bildsmeny */
+.picgrid {
+	position:relative;
+	float:left;
+	width:33.33%;
+	height:50vh;
+	display:block;
+	overflow:hidden;
+}
+.picgrid img {
+	position: absolute;
+	height:100%;
+	overflow:hidden;
+	display:block;
+	vertical-align: middle;
+	margin-left: calc((33.33vw - 55vh) / 2);
+}
+.picgrid h1{
+	position:absolute;
+	z-index:1;
+	width:100%;
+	height:100%;
+	text-align: center;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 2.7em;
+	opacity:0;
+	margin:0;
+}
+.picgrid h1:hover{
+	opacity:1;
+	background-color: #9F5234;
+	color:white;
+}
+.bluebody{
+	clear:both;
+	background-color: #7891AB;
+	color:white;
+	height:400px;
+}
+.bluebody h1{
+	margin:30px 20% 30px 20%;
+}
+.bluebody p{
+	margin: 0px 20% 30px 20%;
+	font-size: 1.1em;
+}
+.whitebody {
+	clear:both;
+	color:gray;
+	height:400px;	
+}
+.whitebody h1{
+	margin:30px 20% 30px 20%;
+}
+.whitebody p{
+	margin: 0px 20% 30px 20%;
+	font-size: 1.1em;
+}
+
+
+
+@font-face {
+    font-family: "Work Sans";
+    src: ("C:/Users/marcu_000/Dropbox/Hemsida/fonts//WorkSans-Light.otf") format("truetype");
+}
+p{
+	font-family: "Work Sans", sans-serif;
+	font-weight: lighter;
+}
+h1{
+	font-size: 1.5em;
+	font-family: arial;
+	font-weight: bolder;
+	text-transform: uppercase;
+}
+h2{
+	font-size: 1.5em;
+	font-family: "Work Sans", arial;
+	font-weight: bolder;
+	color: #2A3C48;
+}
+
+/* FOOTER */
+footer{
+	clear:both;
+	text-align: left;
+	padding:60px 20% 60px 20%;
+	background-color: lightgray;
+	height: auto;
+	overflow:auto;
+	max-width:100%;
+}
+footer li{
+	list-style:none;
+	font-family:"Work Sans";
+}
+footer a:link, a:visited {
+	text-decoration:none;
+	color: #2A3C48;
+	display: block;
+	width: 200px;
+	text-align: left;
+}
+footer a:hover, a:active {
+	color:#9F5234;
+}
+footer h2 {
+	padding-bottom:10px;
+}
+.leftcolumn{
+	width:33.33%;
+	float:left;
+}
+.centercolumn{
+	display: inline-block;
+	width:33.33%;
+}
+
+/* WORK EXPERIENCE */
+	
+/*} /* END LARGE DEVICES ONLY */
