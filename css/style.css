@@ -198,7 +198,7 @@ li a:hover, a:active {
 
 @font-face {
     font-family: "Work Sans";
-    src: ("C:/Users/marcu_000/Dropbox/Hemsida/fonts//WorkSans-Light.otf") format("truetype");
+    src: ("fonts//WorkSans-Light.otf") format("truetype");
 }
 p{
 	font-family: "Work Sans", sans-serif;
