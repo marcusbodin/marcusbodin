@@ -89,7 +89,7 @@ li a:link {
 	font-weight: lighter;
 }
 li a:visited{
-	color: #7891AB;
+	color: #7891AB; /*Ljusblå*/
 }
 li a:hover, a:active {
 	color:#9F5234;
@@ -114,7 +114,7 @@ li a:hover, a:active {
 	margin:0 5px 0 5px;
 }
 .icon img:hover {
-	background-color: #9F5234;
+	background-color: #9F5234; /*orange*/
 	transition: 0.5s;
 }
 .icon a{
@@ -146,13 +146,13 @@ li a:hover, a:active {
 	clear:both
 	text-align: left;
 	padding:60px 20% 60px 20%;
-	background-color: #202020;
+	background-color: #202020; /*Mörkgrå*/
 	height: auto;
 	overflow:auto;
 	width:100%;
 }
 #darkbody h1 {
-	color:dimgray;
+	color: #7891AB;
 	padding-bottom: 30px;
 }
 #darkbody p {
@@ -224,23 +224,15 @@ li a:hover, a:active {
 footer{
 	clear:both;
 	text-align: left;
-	padding:60px 20% 60px 20%;
 	background-color: lightgray;
 	height: auto;
 	overflow:hidden;
 	max-width:100%;
-	height:35vh;
+	height:auto;
 }
-footer li{
-	list-style:none;
-	font-family:"Work Sans";
-	font-size: 0.8em;
-}
-footer a:link, a:visited {
+footer a:link, a:visited{
 	text-decoration:none;
 	color: #2A3C48;
-	display: block;
-	width: 200px;
 	text-align: left;
 }
 footer a:hover, a:active {
@@ -252,16 +244,24 @@ footer h2 {
 .leftcolumn{
 	width:33.33%;
 	float:left;
+	display: block;
+	padding:60px 0 60px 15%;
 }
 .centercolumn{
 	display: inline-block;
 	width:33.33%;
+	padding:60px 0 60px 0;
+	text-align: center;
 }
 .rightcolumn{
 	width:33.33%;
 	float:right;
 	text-align: right;
-	margin-top: calc(35vh / 2 - 60px);
+	display: block;
+	padding:110px 15% 60px 0;
+	position: relative;
+	top: auto;
+	bottom: auto;
 }
 
 
