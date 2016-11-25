@@ -27,6 +27,9 @@ h2{
 li{
 	font-family: "Work Sans", sans-serif;
 }
+a{
+	font-family: "Work Sans", sans-serif;
+}
 
 /************LARGE DEVICES ONLY**********/
 /*@media (min-width: 1200px) {*/
