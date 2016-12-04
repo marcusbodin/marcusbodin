@@ -464,8 +464,8 @@ h2 a:hover, a:active {
 /* INTRO */
 #darkbody {
 	clear:both
-	text-align: left;
-	padding:60px 20% 60px 20%;
+	text-align: center;
+	padding:60px 10% 60px 10%;
 	background-color: #202020; /*Mörkgrå*/
 	height: auto;
 	overflow:auto;
