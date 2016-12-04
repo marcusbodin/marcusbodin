@@ -556,7 +556,6 @@ h2 a:hover, a:active {
 /* FOOTER */
 footer{
 	clear:both;
-	text-align: left;
 	background-color: lightgray;
 	height: auto;
 	overflow:hidden;
