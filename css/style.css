@@ -320,9 +320,8 @@ footer p{
 
 
 /************SMALL DEVICES ONLY**********/
-@media only screen 
-  and (min-device-width: 100px) 
-  and (max-device-width: 667px) 
+@media only screen
+  and (max-device-width: 1000px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
 
