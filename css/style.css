@@ -464,7 +464,6 @@ h2 a:hover, a:active {
 /* INTRO */
 #darkbody {
 	clear:both
-	padding:60px 10% 60px 10%;
 	background-color: #202020; /*Mörkgrå*/
 	height: auto;
 	overflow:auto;
@@ -473,12 +472,13 @@ h2 a:hover, a:active {
 
 #darkbody h1 {
 	color: #7891AB;
-	padding-bottom: 30px;
+	padding: 30px 10% 5px 10%;
 }
 
 #darkbody p {
 	color:white;
 	font-size: 1.1em;
+	padding: 30px 10% 5px 10%;
 }
 
 /* 3-bildsmeny */
