@@ -464,7 +464,6 @@ h2 a:hover, a:active {
 /* INTRO */
 #darkbody {
 	clear:both
-	text-align: center;
 	padding:60px 10% 60px 10%;
 	background-color: #202020; /*Mörkgrå*/
 	height: auto;
@@ -480,6 +479,7 @@ h2 a:hover, a:active {
 #darkbody p {
 	color:white;
 	font-size: 1.1em;
+	text-align: center;
 }
 
 /* 3-bildsmeny */
