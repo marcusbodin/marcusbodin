@@ -463,7 +463,7 @@ h2 a:hover, a:active {
 
 /* INTRO */
 #darkbody {
-	clear:both
+	clear:both;
 	background-color: #202020; /*Mörkgrå*/
 	height: auto;
 	overflow:auto;
