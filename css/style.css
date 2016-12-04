@@ -412,9 +412,7 @@ h2 a:hover, a:active {
 	height:70vw;
 	padding-top: 30px;
 	position: relative;
-	transform: translate(-50%);
-	position: absolute;
-	left:50%;
+	margin-left:17vw;
 }
 
 .fullpic h1{
@@ -583,7 +581,7 @@ footer{
 	width:100%;
 	text-align: center;
 	display: block;
-	padding:15px 15% 60px 15%;
+	padding:60px 15% 60px 15%;
 	position: relative;
 	top: auto;
 	bottom: auto;
