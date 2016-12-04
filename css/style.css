@@ -2,7 +2,6 @@
 	box-sizing:border-box;
 	margin:0;
 	padding:0;
-	overflow-x:hidden;
 }
 
 @font-face {
@@ -38,11 +37,15 @@ a{
 }
 
 /************LARGE DEVICES ONLY**********/
-@media screen and (min-width: 925px) {
+@media (min-width: 925px) {
 
 /* HEADER */
 
-#fullpic{
+body {
+	overflow-x: hidden;
+}
+
+.fullpic{
 	height:100vh;
 }
 
@@ -96,7 +99,31 @@ li a:hover, a:active {
 	position: absolute;
 	top: 50%;
 	left:50%;
-	overflow: hidden;
+}
+
+.verticalcenter img{
+	height:30vw;
+	margin-right:45vw;
+	margin-top:70px;
+}
+
+.verticalcenter h1, h2{
+	display: inline-block;
+	width: 70%;
+	color: gray;
+	margin-left:45%;
+	width: 80%;
+}
+
+.verticalcenter h1{
+	padding-top:50px;
+	font-size: 3em;
+	font-weight: bolder;
+}
+
+.verticalcenter h2{
+	font-size: 1.2em;
+	font-weight: lighter;
 }
 
 .verticalcenter a:link{
@@ -109,41 +136,11 @@ li a:hover, a:active {
 	color:#9F5234;
 }
 
-.verticalcenter img{
-	height:30vw;
-	padding-right:45vw;
-	padding-top:10vh;
-}
-
-#fullpic h1, h2{
-	display: inline-block;
-	width: 40%;
-	color:gray;
-	text-align: left;
-	overflow:hidden;
-	transform: translate(-50%, -50%);
-	position: absolute;
-	left:65%;
-}
-
-#fullpic h1{
-	top: 43%;
-	font-size: 3em;
-	font-weight: bolder;
-}
-
-#fullpic h2{
-	font-size: 1.2em;
-	font-weight: lighter;
-	top: 57%;
-}
-
 .icon {
 	transform: translate(-50%, -50%);
 	position: absolute;
 	top: 95vh;
 	margin-left:calc(50%);
-	overflow: hidden;
 }
 
 .icon img {
@@ -195,12 +192,12 @@ li a:hover, a:active {
 }
 
 .picgrid img {
-	position: absolute;
-	height:100%;
+	height: 100%;
 	overflow:hidden;
-	display:block;
-	vertical-align: middle;
-	margin-left: calc((33.33vw - 55vh) / 2);
+	transform: translate(-50%, -50%);
+	position: absolute;
+	top: 50%;
+	left:50%;
 }
 
 .picgrid h1{
@@ -231,38 +228,34 @@ li a:hover, a:active {
 }
 
 .bluebody h1{
-	margin:30px 20% 30px 20%;
+	padding:30px 20% 30px 20%;
 }
 
 .bluebody p{
-	margin: 0px 20% 30px 20%;
+	padding: 0px 20% 30px 20%;
 	font-size: 1.1em;
 }
 
 .whitebody {
 	clear:both;
 	color:gray;
-	height:400px;	
+	height:400px;
 }
 
 .whitebody h1{
-	margin:30px 20% 30px 20%;
+	padding:30px 20% 30px 20%;
 }
 
 .whitebody p{
-	margin: 0px 20% 30px 20%;
+	padding: 0px 20% 30px 20%;
 	font-size: 1.1em;
 }
 
 /* FOOTER */
 footer{
 	clear:both;
-	text-align: left;
 	background-color: lightgray;
-	height: auto;
 	overflow:hidden;
-	max-width:100%;
-	height:auto;
 }
 
 footer a:link, a:visited{
@@ -275,21 +268,37 @@ footer a:hover, a:active {
 	color:#9F5234;
 }
 
-footer h2 {
-	padding-bottom:10px;
+footer p{
+	display:inline-block;
+	-webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
 }
 
 .leftcolumn{
 	width:33.33%;
 	float:left;
-	display: block;
 	padding:60px 0 60px 15%;
+	text-align: left;
+}
+
+.leftcolumn h2 {
+	padding-bottom:40px;
+	width: auto;
+	position: relative;
+	float: left;
 }
 
 .centercolumn{
 	display: inline-block;
 	width:33.33%;
 	padding:60px 0 60px 0;
+	text-align: center;
+}
+
+.centercolumn h2 {
+	padding-bottom:40px;
 	text-align: center;
 }
 
@@ -311,7 +320,7 @@ footer h2 {
 
 
 /************SMALL DEVICES ONLY**********/
-@media screen and (max-width: 925px) {
+@media only screen and (max-width: 925px) {
 
 /*header*/
 
@@ -371,7 +380,7 @@ h2 a:hover, a:active {
 	color:#9F5234;
 }
 
-#fullpic{
+.fullpic{
 	width: 100%;
 	height: auto;
 }
@@ -399,7 +408,7 @@ h2 a:hover, a:active {
 	padding-left:25vw;
 }
 
-#fullpic h1{
+.fullpic h1{
 	font-size: 3em;
 	color:gray;
 	font-weight: bolder;
@@ -408,7 +417,7 @@ h2 a:hover, a:active {
 	text-align: center;
 }
 
-#fullpic h2{
+.fullpic h2{
 	padding: 30px 60px 10px 60px;
 	font-size: 1.2em;
 	font-weight: lighter;
@@ -475,12 +484,12 @@ h2 a:hover, a:active {
 }
 
 .picgrid img {
-	position: absolute;
 	height: 90%;
 	overflow:hidden;
-	display:block;
-	margin-left: calc((33.33vw - 55vh) / 2);
-	margin-bottom:100px;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	top: 40%;
+	left:50%;
 }
 
 .picgrid h1{
@@ -491,7 +500,7 @@ h2 a:hover, a:active {
 	text-align: center;
 	font-size: 2em;
 	opacity:0.5;
-	padding-top:110%;
+	padding-top:90%;
 	display:flex;
 	align-items: center;
 	justify-content: center;
@@ -499,7 +508,7 @@ h2 a:hover, a:active {
 }
 
 .picgrid h1:hover{
-	opacity:1;
+	opacity:0.5;
 	background-color: #9F5234;
 	color:white;
 }
@@ -512,11 +521,11 @@ h2 a:hover, a:active {
 }
 
 .bluebody h1{
-	margin:30px 20% 30px 20%;
+	padding:30px 20% 30px 20%;
 }
 
 .bluebody p{
-	margin: 0px 20% 30px 20%;
+	padding: 0px 20% 30px 20%;
 	font-size: 1.1em;
 }
 
@@ -527,11 +536,11 @@ h2 a:hover, a:active {
 }
 
 .whitebody h1{
-	margin:30px 20% 30px 20%;
+	padding:30px 20% 30px 20%;
 }
 
 .whitebody p{
-	margin: 0px 20% 30px 20%;
+	padding: 0px 20% 30px 20%;
 	font-size: 1.1em;
 }
 
