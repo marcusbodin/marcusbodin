@@ -68,6 +68,7 @@ hr{
 	left:50%;
 	overflow: hidden;
 	width:600px;
+	height:0.5px;
 	color:lightgray;
 }
 
