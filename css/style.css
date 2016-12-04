@@ -321,9 +321,13 @@ footer p{
 
 /************SMALL DEVICES ONLY**********/
 @media screen 
-	and (max-width: 1200px), screen and (-webkit-min-device-pixel-ratio:2){
+	and (max-width: 925px), screen and (-webkit-min-device-pixel-ratio:2){
 
 /*header*/
+
+body {
+	overflow-x: hidden;
+}
 
 ul{
 	transform: translate(-50%, -50%);
