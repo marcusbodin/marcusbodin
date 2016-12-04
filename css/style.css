@@ -429,7 +429,7 @@ h2 a:hover, a:active {
 	padding: 30px 60px 10px 60px;
 	font-size: 1.2em;
 	font-weight: lighter;
-	color:black;
+	color:gray;
 	text-align: center;
 	overflow:hidden;
 }
