@@ -320,7 +320,8 @@ footer p{
 
 
 /************SMALL DEVICES ONLY**********/
-@media screen and (max-device-width: 1000px){
+@media screen 
+	and (max-width: 1200px), screen and (-webkit-min-device-pixel-ratio:2){
 
 /*header*/
 
