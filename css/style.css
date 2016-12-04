@@ -581,12 +581,13 @@ footer h2 {
 .leftcolumn{
 	width:33.33%;
 	float:left;
-	display: block;
+	display: inline-block;
 	padding:60px 0 60px 15%;
 }
 
 .centercolumn{
 	display: inline-block;
+	float:left;
 	width:33.33%;
 	padding:60px 0 60px 0;
 	text-align: center;
@@ -594,7 +595,7 @@ footer h2 {
 
 .rightcolumn{
 	width:33.33%;
-	float:right;
+	float:left;
 	text-align: right;
 	display: block;
 	padding:110px 15% 60px 0;
