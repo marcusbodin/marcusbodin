@@ -421,6 +421,8 @@ h2 a:hover, a:active {
 	overflow:hidden;
 	margin-top: 30px;
 	text-align: center;
+	padding-right:10px;
+	padding-left:10px;
 }
 
 .fullpic h2{
