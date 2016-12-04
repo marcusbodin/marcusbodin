@@ -566,14 +566,12 @@ footer{
 
 .leftcolumn{
 	width:100%;
-	float:left;
 	display: inline-block;
 	padding:60px 15% 15px 15%;
 }
 
 .centercolumn{
 	display: inline-block;
-	float:left;
 	width:100%;
 	padding:15px 15% 15px 15%;
 	text-align: center;
@@ -581,7 +579,6 @@ footer{
 
 .rightcolumn{
 	width:100%;
-	float:left;
 	text-align: right;
 	display: block;
 	padding:15px 15% 60px 15%;
