@@ -132,6 +132,8 @@ li a:hover, a:active {
 	text-decoration: none;
 	color: #7891AB;
 	font-weight: bold;
+	margin-left:auto;
+	margin-right: auto;
 }
 
 .verticalcenter a:hover, a:active {
