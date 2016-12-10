@@ -263,7 +263,7 @@ a:hover, a:active {
 /* FOOTER */
 footer{
 	clear:both;
-	background-color: lightgray;
+	background-color: #202020; /*Mörkgrå*/
 	overflow:hidden;
 }
 
@@ -280,8 +280,7 @@ footer{
 .leftcolumn p{
 	text-align: left;
 	margin: 10px 0 40px 15vw;
-	color:gray;
-	font-weight: normal;
+	color:white;
 }
 
 .centercolumn{
@@ -293,12 +292,12 @@ footer{
 	text-align: center;
 	margin: 60px 0 0 0;
 	width:100%;
+	color: white;
 }
 .centercolumn p{
 	text-align: center;
 	margin: 10px 0 40px 0;
-	color:gray;
-	font-weight: normal;
+	color:white;
 }
 
 .rightcolumn{
@@ -309,13 +308,13 @@ footer{
 .rightcolumn h2{
 	text-align: right;
 	margin: 60px 15vw 0 0;
+	color:white;
 }
 
 .rightcolumn p{
 	text-align: right;
 	margin: 110px 15vw 0 0;
-	color: gray;
-	font-weight: normal;
+	color: white;
 }
 footer a:link, a:visited{
 	text-decoration: none;
