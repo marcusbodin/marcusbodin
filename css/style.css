@@ -169,7 +169,7 @@ a:hover, a:active {
 	clear:both
 	text-align: left;
 	padding:60px 20% 60px 20%;
-	background-color: darkgray;
+	background-color: #202020; /*Mörkgrå*/
 	height: auto;
 	overflow:auto;
 	width:100%;
@@ -229,16 +229,15 @@ a:hover, a:active {
 	clear:both;
 	background-color: #7891AB;
 	color:white;
-	height:400px;
 }
 
 .bluebody h1{
-	padding:30px 20% 30px 20%;
+	padding:60px 20% 30px 20%;
 	text-align: left;
 }
 
 .bluebody p{
-	padding: 0px 20% 30px 20%;
+	padding: 0px 20% 60px 20%;
 	font-size: 1.1em;
 	text-align: left;
 }
@@ -246,16 +245,15 @@ a:hover, a:active {
 .whitebody {
 	clear:both;
 	color:gray;
-	height:400px;
 }
 
 .whitebody h1{
-	padding:30px 20% 30px 20%;
+	padding:60px 20% 30px 20%;
 	text-align: left;
 }
 
 .whitebody p{
-	padding: 0px 20% 30px 20%;
+	padding: 0px 20% 60px 20%;
 	font-size: 1.1em;
 	text-align: left;
 }
