@@ -312,13 +312,13 @@ footer{
 	margin: 110px 15vw 0 0;
 }
 
-footer a:link, a:visited{
+.leftcolumn a:link, a:visited{
 	text-decoration:none;
 	color: #2A3C48;
 	text-align: left;
 }
 
-footer a:hover, a:active {
+.leftcolumn a:hover, a:active {
 	color:#9F5234;
 }
 
