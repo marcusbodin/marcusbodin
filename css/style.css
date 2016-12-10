@@ -280,6 +280,7 @@ footer{
 .leftcolumn p{
 	text-align: left;
 	margin: 10px 0 40px 15vw;
+	color:gray;
 }
 
 .centercolumn{
@@ -295,6 +296,7 @@ footer{
 .centercolumn p{
 	text-align: center;
 	margin: 10px 0 40px 0;
+	color:gray;
 }
 
 .rightcolumn{
@@ -310,6 +312,7 @@ footer{
 .rightcolumn p{
 	text-align: right;
 	margin: 110px 15vw 0 0;
+	color: gray;
 }
 footer a:link, a:visited{
 	text-decoration: none;
