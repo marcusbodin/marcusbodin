@@ -169,7 +169,7 @@ a:hover, a:active {
 	clear:both
 	text-align: left;
 	padding:60px 20% 60px 20%;
-	background-color: #202020; /*Mörkgrå*/
+	background-color: darkgray;
 	height: auto;
 	overflow:auto;
 	width:100%;
