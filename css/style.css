@@ -281,6 +281,7 @@ footer{
 	text-align: left;
 	margin: 10px 0 40px 15vw;
 	color:gray;
+	font-weight: normal;
 }
 
 .centercolumn{
@@ -297,6 +298,7 @@ footer{
 	text-align: center;
 	margin: 10px 0 40px 0;
 	color:gray;
+	font-weight: normal;
 }
 
 .rightcolumn{
@@ -313,6 +315,7 @@ footer{
 	text-align: right;
 	margin: 110px 15vw 0 0;
 	color: gray;
+	font-weight: normal;
 }
 footer a:link, a:visited{
 	text-decoration: none;
