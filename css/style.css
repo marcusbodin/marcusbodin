@@ -312,16 +312,6 @@ footer{
 	margin: 110px 15vw 0 0;
 }
 
-.leftcolumn a:link, a:visited{
-	text-decoration:none;
-	color: #2A3C48;
-	text-align: left;
-}
-
-.leftcolumn a:hover, a:active {
-	color:#9F5234;
-}
-
 } /* END LARGE DEVICES ONLY */
 
 
