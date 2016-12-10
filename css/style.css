@@ -131,7 +131,7 @@ li a:hover, a:active {
 a:link, a:visited{
 	text-decoration: none;
 	color: #7891AB;
-	font-weight: bold;
+	font-weight: normal;
 	margin-left:auto;
 	margin-right: auto;
 }
