@@ -70,7 +70,8 @@ hr{
 	overflow: hidden;
 	width:600px;
 	height:0.5px;
-	background-color:gray;
+	background-color:#7891AB; /*Ljusblå*/
+	color:#7891AB; /*Ljusblå*/
 }
 
 header li{
