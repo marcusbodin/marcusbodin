@@ -618,6 +618,26 @@ h2 a:hover, a:active {
 	padding: 25px 10% 30px 10%;
 }
 
+.orangebody{
+	clear:both;
+	position: relative;
+	background-color: #9F5234; /*orange*/
+	overflow:auto;
+}
+
+.orangebody h1{
+	padding:60px 10% 30px 10%;
+	text-align: center;
+	color:white;
+}
+.orangebody h2{
+	padding:10px 10% 60px 10%;
+	text-align: center;
+	color:white;
+	font-size: 1em;
+	font-weight: lighter;
+}
+
 /* 3-bildsmeny */
 .picgrid {
 	position:relative;
