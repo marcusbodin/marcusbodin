@@ -165,26 +165,26 @@ a:hover, a:active {
 	text-decoration: none;
 }
 
-/* INTRO */
-#darkbody {
-	clear:both
-	text-align: left;
-	padding:60px 20% 60px 20%;
-	background-color: #202020; /*Mörkgrå*/
-	height: auto;
+.orangebody{
+	clear:both;
+	position: relative;
+	background-color: #9F5234; /*orange*/
 	overflow:auto;
-	width:100%;
 }
 
-#darkbody h1 {
-	color: #7891AB;
-	padding-bottom: 30px;
-}
-
-#darkbody p {
-	color:white;
-	font-size: 1.1em;
+.orangebody h1{
+	padding:60px 10% 30px 10%;
 	text-align: left;
+	color:white;
+}
+.orangebody h2{
+	padding:10px 10% 60px 10%;
+	text-align: left;
+	color:white;
+	font-size: 1em;
+	font-weight: lighter;
+	margin-left:0;
+	width: auto;
 }
 
 /* 3-bildsmeny */
@@ -234,7 +234,7 @@ a:hover, a:active {
 }
 
 .bluebody h1{
-	padding:60px 15% 30px 15%;
+	padding:60px 10% 30px 10%;
 	text-align: left;
 	color:white;
 }
@@ -293,7 +293,7 @@ a:hover, a:active {
 }
 
 .whitebody h1{
-	padding:60px 15% 30px 15%;
+	padding:60px 10% 30px 10%;
 	text-align: left;
 	color:gray;
 }
