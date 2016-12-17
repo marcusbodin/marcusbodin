@@ -541,7 +541,7 @@ li a:hover, a:active {
 
 .blurpic {
 	background: #333333; /*mörkgrå*/
-	background-image: url('file:../img/designwork.png');
+	background-image: url(../img/designwork.png);
 	background-size:cover;
 	background-position: center center;
 	padding-bottom:200px;
