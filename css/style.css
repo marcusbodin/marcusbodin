@@ -94,7 +94,7 @@ li a:hover, a:active {
 
 .blurpic {
 	height:91.5vh;
-	background-image: url('file:../img/designwork.png');
+	background-image: url(../img/designwork.png);
 	background-size:cover;
 	background-position: center center;
 	background-color:#333333; /*mörkgrå*/;
