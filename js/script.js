@@ -1,2 +1,5 @@
-var message = "in global";
-console.log("global: message = " + message);
+window.addEventListener('scroll', function () {
+  document.body.classList[
+    window.scrollY > 0 ? 'add': 'remove'
+  ]('scrolled');
+});

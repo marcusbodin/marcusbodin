@@ -67,6 +67,16 @@ header{
 	background-color: #333333; /*mörkgrå*/
 	margin-bottom:-4px;
 	z-index: 1;
+	position:fixed;
+}
+
+body.scrolled #main-menu {
+  opacity: 0.7;
+  transition: opacity .2s;
+}
+body.scrolled #main-menu:hover {
+  opacity: 1.0;
+  transition: opacity .2s;
 }
 
 ul{
@@ -102,7 +112,7 @@ li a:hover, a:active {
 }
 
 .blurpic {
-	height:92vh;
+	height:100vh;
 	background-image: url(../img/designwork.png);
 	background-size:cover;
 	background-position: center center;
@@ -147,13 +157,18 @@ li a:hover, a:active {
 	position: relative;
 }
 
+
+.headtext a{
+	text-decoration: none;
+	color:#3b6d87; /*mörkblå*/
+}
 .headtext a:link, a:visited{
 	text-decoration: none;
-	color: #C75243; /*orange*/
+	color:#3b6d87; /*mörkblå*/
 }
 
 .headtext a:hover, a:active {
-	color:#3b6d87; /*mörkblå*/
+	color: #C75243; /*orange*/
 }
 
 .icon {
@@ -299,9 +314,13 @@ li a:hover, a:active {
 	transform: translate(0%, -50%);
 	position:relative;
 	top:50%;
+	width:200px;
 }
 .leftbody2 img{
-	max-height:150px;
+	transform: translate(-50%, 0%);
+	position:relative;
+	left:50%;
+	max-height:100px;
 	max-width: 200px;
 	padding:20px;
 }
@@ -342,6 +361,7 @@ li a:hover, a:active {
 	position:relative;
 	width: 80px;
 	margin: 100px 0 0 0;
+	box-shadow: 3px 6px 10px #888888;
 }
 .calblock1{
 	display:inline-block;
@@ -432,15 +452,15 @@ footer{
 	margin: 110px 15vw 0 0;
 	color: gray;
 }
-footer a:link, a:visited{
+.leftcolumn a:link, a:visited{
 	text-decoration: none;
-	color: gray;
+	color: #3b6d87;
 	font-weight: normal;
 	margin-left:auto;
 	margin-right: auto;
 }
 
-footer a:hover, a:active {
+.leftcolumn a:hover, a:active {
 	color:#C75243;/*ljusorange*/
 }
 
@@ -483,7 +503,9 @@ header{
 	background-color: #333333; /*mörkgrå*/
 	margin-bottom:-4px;
 	z-index: 1;
+	position:fixed;
 }
+
 
 ul{
 	transform: translate(-50%, -50%);
