@@ -7,6 +7,7 @@ window.addEventListener('scroll', function () {
 $(document).ready(function(){
 	var btt = $('.backtotop');
 	$(window).on('scroll', function(){
+		console.log('scrolled');
 		var self = $(this),
 			height = self.height(),
 			top = self.scrollTop();
