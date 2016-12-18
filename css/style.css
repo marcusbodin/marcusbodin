@@ -294,7 +294,7 @@ li a:hover, a:active {
 	font-size: 4em;
 }
 
-.leftbody a:link, a:visited{
+.leftbody a, a:link, a:visited{
 	text-decoration: none;
 	color: #3b6d87;
 	font-weight: normal;
@@ -754,7 +754,7 @@ li a:hover, a:active {
 	font-size: 3em;
 }
 
-.leftbody a:link, a:visited{
+.leftbody a, a:link, a:visited{
 	text-decoration: none;
 	color: #3b6d87;
 	font-weight: normal;
