@@ -60,7 +60,6 @@ header{
 
 
 .menubar{
-	display:inline-block;
 	background-color:white;
 	height:50px;
 	width:100%;
@@ -68,6 +67,17 @@ header{
 	margin-bottom:-4px;
 	z-index: 1;
 	position:fixed;
+	display: none;
+}
+
+.backtotop{
+	height:5vh;
+	width: 5vh;
+	position:fixed;
+	right:10px;
+	bottom:20px;
+	z-index: 100;
+	display:none;
 }
 
 body.scrolled #main-menu {
@@ -545,11 +555,27 @@ li a:hover, a:active {
 	background-size:cover;
 	background-position: center center;
 	padding-bottom:200px;
+	z-index: 1;
 }
+
+
+.backtotop{
+	height:5vh;
+	width: 5vh;
+	position:fixed;
+	right:10px;
+	bottom:20px;
+	z-index: 100;
+}
+
+.backtotop img{
+
+}
+
 
 .verticalcenter{
 	position: relative;
-	top: 60px;
+	top: 90px;
 	width:100%;
 }
 
@@ -561,7 +587,7 @@ li a:hover, a:active {
 	float:left;
 	transform: translate(-50%, 0%);
 	position: relative;
-	top: 100px;
+	top: 130px;
 	left:50%;
 	width: 80vw;
 	background-color: rgba(255, 255, 255, 0.7);
@@ -591,17 +617,17 @@ li a:hover, a:active {
 
 .headtext a:link, a:visited{
 	text-decoration: none;
-	color: #C75243; /*orange*/
+	color: #3b6d87; /*mörkblå*/
 }
 
 .headtext a:hover, a:active {
-	color:#3b6d87; /*mörkblå*/
+	color:#C75243; /*orange*/
 }
 
 .icon {
 	clear: both;
 	position: relative;
-	top: 150px;
+	top: 180px;
 	padding-left:calc(50% - (55px * 5) / 2);
 }
 
@@ -855,7 +881,7 @@ footer{
 
 .leftcolumn a:link, a:visited{
 	text-decoration:none;
-	color: gray;
+	color: #3b6d87; /*mörkblå*/
 	text-align: left;
 }
 
