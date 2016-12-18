@@ -201,7 +201,7 @@ li a:hover, a:active {
 /* 3-bildsmeny */
 .picgrid {
 	width: calc(100%);
-	height: 60vh;
+	height: 40vh;
 	transform: translate(-50%, 0%);
 	position: relative;
 	left:50%;
@@ -215,6 +215,9 @@ li a:hover, a:active {
 	height:100%;
 	display:block;
 	overflow:hidden;
+    border-style: solid;
+    border-width: 1px;
+    border-color:white;
 }
 
 .picgrid1 img {
@@ -224,7 +227,7 @@ li a:hover, a:active {
 	position: absolute;
 	top: 50%;
 	left:50%;
-	padding:70px 0 70px 0;
+	padding:50px 0 50px 0;
 }
 
 .picgrid1 h1{
@@ -247,30 +250,42 @@ li a:hover, a:active {
 	color:white;
 }
 
-.dots {
-	background-color:white;
-	padding:30px 0 80px 0;
-}
-
-.dots img{
-	height:5px;
-	transform: translate(-50%, -50%);
-	position: relative;
-	left: 50%;
-}
-
 .leftbody{
 	clear:both;
 	position: relative;
-	background-color: white;
 	overflow:auto;
-}
+    background: white; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(white, rgb(240, 240, 240)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(white, rgb(240, 240, 240)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(white, rgb(240, 240, 240)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(white, rgb(240, 240, 240)); /* Standard syntax */
+} 
 
 .leftbody h1{
-	padding: 40px 0 20px 0;
+	padding: 60px 0 20px 0;
 	text-align: center;
 	color:#C75243;/*ljusorange*/
 	font-size: 4em;
+}
+
+.blogentry{
+	margin: -15px 20% 80px 20%;
+	overflow:hidden;
+}
+
+.blogentry h2{
+	clear:both;
+	padding-bottom: 10px;
+	margin: 0;
+	text-align: center;
+	color:#3b6d87; /*mörkblå*/
+}
+.blogentry p{
+	padding-top: 5px;
+	text-align: justify;
+	margin:0;
+	font-weight: normal;
+	font-size: 1em;
 }
 
 .leftbody1{ /*ruta*/
@@ -278,7 +293,6 @@ li a:hover, a:active {
 	margin: 20px 20% 15px 20%;
 	height: 200px;
 	overflow:hidden;
-	background-color: rgba(255, 255, 255, 0.7);
 }
 .leftbody2 { /*bild*/
 	float:left;
@@ -307,7 +321,7 @@ li a:hover, a:active {
 }
 
 .leftbody3 h3{
-	font-weight: normal;
+	font-weight: bolder;
 	text-align: left;
 	color:#333333; /*mörkgrå*/
 	font-size: 1em;
@@ -315,10 +329,10 @@ li a:hover, a:active {
 }
 
 .leftbody3 p{
-	font-size: 0.9em;
+	font-size: 1em;
 	text-align: left;
 	color:#333333; /*mörkgrå*/
-	font-weight: lighter; 
+	font-weight: normal; 
 }
 
 .calblock{
@@ -352,32 +366,13 @@ li a:hover, a:active {
 	width:80px;
 	height: 60px;
 	margin: 0;
-	background-color: rgb(231, 232, 220);
+	background-color: white;rgb(231, 232, 220);/*gräddvit*/
 }
 .calblock2 h1{
 	text-align:center;
 	padding: 5px 0 0 0;
 	color: #C75243;/*ljusorange*/
 	font-size: 2.5em;
-}
-
-.blogentry{
-	margin: -15px 20% 0 20%;
-	overflow:hidden;
-}
-
-.blogentry h2{
-	clear:both;
-	padding-bottom: 10px;
-	margin: 0;
-	text-align: center;
-	color:#3b6d87; /*mörkblå*/
-}
-.blogentry p{
-	padding-top: 5px;
-	text-align: justify;
-	margin:0;
-	font-weight: normal;
 }
 
 /* FOOTER */
@@ -615,11 +610,11 @@ li a:hover, a:active {
 	font-size: 2.5em;
 }
 .centerbody p{
-	padding:10px 10% 0 10%;
+	padding:10px 10% 50px 10%;
 	text-align: center;
 	color:white;#333333; /*mörkgrå*/
 	font-size: 1em;
-	font-weight: normal;
+	font-weight: lighter;
 	margin-left:0;
 	width: auto;
 }
@@ -630,7 +625,7 @@ li a:hover, a:active {
 /* 3-bildsmeny */
 .picgrid {
 	width: calc(100%);
-	height: 60vh;
+	height: 40vh;
 	transform: translate(-50%, 0%);
 	position: relative;
 	left:50%;
@@ -644,6 +639,9 @@ li a:hover, a:active {
 	height:100%;
 	display:block;
 	overflow:hidden;
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
 }
 
 .picgrid1 img {
@@ -653,7 +651,7 @@ li a:hover, a:active {
 	position: absolute;
 	top: 40%;
 	left:50%;
-	padding:90px 0 90px 0;
+	padding:50px 0 50px 0;
 }
 
 .picgrid1 h1{
@@ -669,7 +667,7 @@ li a:hover, a:active {
 	opacity:1;
 	margin:0;
 	color:white;
-	padding-top:35vh;
+	padding-top:25vh;
 }
 
 .picgrid1 h1:hover{
@@ -678,27 +676,20 @@ li a:hover, a:active {
 	color:white;
 }
 
-.dots {
-	background-color:white;
-	padding:30px 0 80px 0;
-}
-
-.dots img{
-	height:5px;
-	transform: translate(-50%, -50%);
-	position: relative;
-	left: 50%;
-}
-
 .leftbody{
 	clear:both;
 	position: relative;
 	background-color: white;
 	overflow:auto;
+    background: white; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(white, rgb(240, 240, 240)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(white, rgb(240, 240, 240)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(white, rgb(240, 240, 240)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(white, rgb(240, 240, 240)); /* Standard syntax */
 }
 
 .leftbody h1{
-	padding: 0 0 10px 0;
+	padding: 80px 0 10px 0;
 	text-align: center;
 	color:#C75243;/*ljusorange*/
 	font-size: 3em;
@@ -706,9 +697,8 @@ li a:hover, a:active {
 
 .leftbody1{ /*ruta*/
 	clear:both;
-	margin: 40px 10% 15px 10%;
+	margin: 40px 10% 60px 10%;
 	overflow:hidden;
-	background-color: rgba(255, 255, 255, 0.7);
 }
 .leftbody2 { /*bild*/
 	display: inline-block;
@@ -754,6 +744,7 @@ li a:hover, a:active {
 	position:relative;
 	width: 80px;
 	margin: 100px 0 0 0;
+	box-shadow: 3px 6px 10px #888888;
 }
 .calblock1{
 	display:inline-block;
@@ -778,7 +769,7 @@ li a:hover, a:active {
 	width:80px;
 	height: 60px;
 	margin: 0;
-	background-color: rgb(231, 232, 220);
+	background-color: white;rgb(231, 232, 220)/*gräddvit*/;
 }
 .calblock2 h1{
 	text-align:center;
@@ -788,7 +779,7 @@ li a:hover, a:active {
 }
 
 .blogentry{
-	margin: -15px 10% 0 10%;
+	margin: -15px 10% 80px 10%;
 	overflow:hidden;
 }
 
