@@ -42,17 +42,6 @@ li{
 a{
 	font-family: "Work Sans", sans-serif;
 }
-a:link, a:visited{
-	text-decoration: none;
-	color: #3b6d87;
-	font-weight: normal;
-	margin-left:auto;
-	margin-right: auto;
-}
-
-a:hover, a:active {
-	color:#C75243;/*ljusorange*/
-}
 
 /************LARGE DEVICES ONLY**********/
 @media (min-width: 925px) {
@@ -303,6 +292,18 @@ li a:hover, a:active {
 	text-align: center;
 	color:#C75243;/*ljusorange*/
 	font-size: 4em;
+}
+
+.leftbody a:link, a:visited{
+	text-decoration: none;
+	color: #3b6d87;
+	font-weight: normal;
+	margin-left:auto;
+	margin-right: auto;
+}
+
+.leftbody a:hover, a:active {
+	color:#C75243;/*ljusorange*/
 }
 
 .blogentry{
@@ -751,6 +752,18 @@ li a:hover, a:active {
 	text-align: center;
 	color:#C75243;/*ljusorange*/
 	font-size: 3em;
+}
+
+.leftbody a:link, a:visited{
+	text-decoration: none;
+	color: #3b6d87;
+	font-weight: normal;
+	margin-left:auto;
+	margin-right: auto;
+}
+
+.leftbody a:hover, a:active {
+	color:#C75243;/*ljusorange*/
 }
 
 .leftbody1{ /*ruta*/
