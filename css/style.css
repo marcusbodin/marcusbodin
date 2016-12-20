@@ -230,11 +230,11 @@ li a:hover, a:active {
 	position: relative;
 	left:50%;
 	background: white; /* For browsers that do not support gradients */
-	background-image: -webkit-linear-gradient(bottom, lightgray 10%, darkgray 45%, #C75243 45.1%, white 200%);
-	background-image: -moz-linear-gradient(bottom, lightgray 10%, darkgray 45%, #C75243 45.1%, white 200%);
-	background-image: -o-linear-gradient(bottom, lightgray 10%, darkgray 45%, #C75243 45.1%, white 200%);
-	background-image: -ms-linear-gradient(bottom, lightgray 10%, darkgray 45%, #C75243 45.1%, white 200%);
-	background-image: linear-gradient(bottom, lightgray 10%, darkgray 45%, #C75243 45.1%, white 200%);
+	background-image: -webkit-linear-gradient(bottom, lightgray 10%, white 100%);
+	background-image: -moz-linear-gradient(bottom, lightgray 10%, white 100%);
+	background-image: -o-linear-gradient(bottom, lightgray 10%, white 100%);
+	background-image: -ms-linear-gradient(bottom, lightgray 10%, white 100%);
+	background-image: linear-gradient(bottom, lightgray 10%, white 100%);
 }
 
 .picgrid1 {
@@ -244,6 +244,9 @@ li a:hover, a:active {
 	height:100%;
 	display:block;
 	overflow:hidden;
+	border-color: white;
+	border-style: solid;
+	border-width: 1px;
 }
 
 .picgrid1 img {
@@ -687,11 +690,11 @@ li a:hover, a:active {
 	position: relative;
 	left:50%;
 	background-color:#333333; /*mörkgrå*/
-	background-image: -webkit-linear-gradient(bottom, lightgray 10%, darkgray 45%, #C75243 45.1%, white 200%);
-	background-image: -moz-linear-gradient(bottom, lightgray 10%, darkgray 45%, #C75243 45.1%, white 200%);
-	background-image: -o-linear-gradient(bottom, lightgray 10%, darkgray 45%, #C75243 45.1%, white 200%);
-	background-image: -ms-linear-gradient(bottom, lightgray 10%, darkgray 45%, #C75243 45.1%, white 200%);
-	background-image: linear-gradient(bottom, lightgray 10%, darkgray 45%, #C75243 45.1%, white 200%);
+	background-image: -webkit-linear-gradient(bottom, lightgray 10%, white 100%);
+	background-image: -moz-linear-gradient(bottom, lightgray 10%, white 100%);
+	background-image: -o-linear-gradient(bottom, lightgray 10%, white 100%);
+	background-image: -ms-linear-gradient(bottom, lightgray 10%, white 100%);
+	background-image: linear-gradient(bottom, lightgray 10%, white 100%);
 }
 
 .picgrid1 {
@@ -701,6 +704,9 @@ li a:hover, a:active {
 	height:100%;
 	display:block;
 	overflow:hidden;
+	border-color: white;
+	border-style: solid;
+	border-width: 1px;
 }
 
 .picgrid1 img {
