@@ -50,7 +50,7 @@ a{
 
 body {
 	overflow-x: hidden;
-	background-color: #333333; /*mörkgrå*/;
+	background-color: #ECECE5; /*mörkgrå*/;
 }
 header{
 	padding:0;
@@ -65,7 +65,7 @@ header{
 	width:100%;
 	background-color: #333333; /*mörkgrå*/
 	margin-bottom:-4px;
-	z-index: 1;
+	z-index: 100;
 	position:fixed;
 }
 
@@ -229,12 +229,8 @@ li a:hover, a:active {
 	transform: translate(-50%, 0%);
 	position: relative;
 	left:50%;
-	background: white; /* For browsers that do not support gradients */
-	background-image: -webkit-linear-gradient(bottom, lightgray 10%, white 100%);
-	background-image: -moz-linear-gradient(bottom, lightgray 10%, white 100%);
-	background-image: -o-linear-gradient(bottom, lightgray 10%, white 100%);
-	background-image: -ms-linear-gradient(bottom, lightgray 10%, white 100%);
-	background-image: linear-gradient(bottom, lightgray 10%, white 100%);
+    background: white; /* For browsers that do not support gradients */
+    margin: 3px 0 100px 0;
 }
 
 .picgrid1 {
@@ -244,9 +240,9 @@ li a:hover, a:active {
 	height:100%;
 	display:block;
 	overflow:hidden;
-	border-color: white;
+	border-color: #ecece5;
 	border-style: solid;
-	border-width: 1px;
+	border-width: 3px;
 }
 
 .picgrid1 img {
@@ -279,22 +275,46 @@ li a:hover, a:active {
 	color:white;
 }
 
+.headingbanner{
+	width:78.6%;
+	overflow:hidden;
+	z-index: 1;
+	margin-top:0;
+	transform: translate(-50%, 0%);
+	position: absolute;
+	left:50%;
+}
+
+.headingbanner h1{
+	text-align: center;
+	color:white;
+	font-size: 3.1em;
+	transform: translate(-50%, 0%);
+	position: relative;
+	left:50%;
+	top: -10.5vw;
+	z-index: 2;
+}
+
 .leftbody{
+	z-index: 0;
 	clear:both;
 	position: relative;
-	overflow:auto;
-    background: white; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(white, rgb(240, 240, 240)); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(white, rgb(240, 240, 240)); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(white, rgb(240, 240, 240)); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(white, rgb(240, 240, 240)); /* Standard syntax */
+	overflow:hidden;
+    background: white;
+	width:70%;
+	margin: 100px 15% 100px 15%;
+	padding: 170px 0 50px 0;
 } 
 
 .leftbody h1{
-	padding: 60px 0 20px 0;
+	
 	text-align: center;
-	color:#C75243;/*ljusorange*/
-	font-size: 4em;
+	color:white;
+	font-size: 3.1em;
+	width: 100%;
+	height:180px;
+	padding-bottom: 20px;
 }
 
 .leftbody a, a:link, a:visited{
@@ -386,14 +406,14 @@ li a:hover, a:active {
 	left:50%;
 	position:relative;
 	width: 80px;
-	margin: 100px 0 0 0;
+	margin: 80px 0 0 0;
 	box-shadow: 3px 6px 10px #888888;
 }
 .calblock1{
 	display:inline-block;
 	width:80px;
 	height: 20px;
-	margin: 0;
+	margin: 000;
 	background-color: #C75243;/*ljusorange*/
 }
 .calblock1 > p{
@@ -419,6 +439,8 @@ li a:hover, a:active {
 	padding: 5px 0 0 0;
 	color: #C75243;/*ljusorange*/
 	font-size: 2.5em;
+	background-image: none;
+	margin:0;
 }
 
 /* FOOTER */
@@ -514,7 +536,7 @@ footer{
 
 body {
 	overflow-x: hidden;
-	background-color: lightgray;
+	background-color: #ecece5;
 }
 header{
 	padding:0;
@@ -528,7 +550,7 @@ header{
 	width:100%;
 	background-color: #333333; /*mörkgrå*/
 	margin-bottom:-4px;
-	z-index: 1;
+	z-index: 100;
 	position:fixed;
 }
 
@@ -689,12 +711,8 @@ li a:hover, a:active {
 	transform: translate(-50%, 0%);
 	position: relative;
 	left:50%;
-	background-color:#333333; /*mörkgrå*/
-	background-image: -webkit-linear-gradient(bottom, lightgray 10%, white 100%);
-	background-image: -moz-linear-gradient(bottom, lightgray 10%, white 100%);
-	background-image: -o-linear-gradient(bottom, lightgray 10%, white 100%);
-	background-image: -ms-linear-gradient(bottom, lightgray 10%, white 100%);
-	background-image: linear-gradient(bottom, lightgray 10%, white 100%);
+	background-color:white;
+	margin-bottom:100px;
 }
 
 .picgrid1 {
@@ -704,9 +722,10 @@ li a:hover, a:active {
 	height:100%;
 	display:block;
 	overflow:hidden;
-	border-color: white;
+	border-width: 3px;
 	border-style: solid;
-	border-width: 1px;
+	border-color: #ecece5;
+	margin-top: 3px;
 }
 
 .picgrid1 img {
@@ -731,7 +750,7 @@ li a:hover, a:active {
 	font-size: 1em;
 	opacity:1;
 	margin:0;
-	color:white;
+	color:#333333;
 	padding-top:25vh;
 }
 
@@ -741,23 +760,49 @@ li a:hover, a:active {
 	color:white;
 }
 
+.headingbanner{
+	width:90%;
+	overflow:hidden;
+	z-index: 1;
+	margin:0;
+	transform: translate(-50%, 0%);
+	position: absolute;
+	left:50%;
+}
+
+.headingbanner h1{
+	text-align: center;
+	color:white;
+	font-size: 7vw;
+	transform: translate(-50%, -50%);
+	position: relative;
+	left:50%;
+	top: -9vw;
+	z-index: 2;
+}
+
 .leftbody{
 	clear:both;
 	position: relative;
 	background-color: white;
 	overflow:auto;
-    background: white; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(white, rgb(240, 240, 240)); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(white, rgb(240, 240, 240)); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(white, rgb(240, 240, 240)); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(white, rgb(240, 240, 240)); /* Standard syntax */
+    background: white;
+    margin: 100px 10% 100px 10%;
+    padding-top: 100px;
 }
 
 .leftbody h1{
-	padding: 80px 0 10px 0;
+	margin: 80px 10% 10px 10%;
 	text-align: center;
-	color:#C75243;/*ljusorange*/
-	font-size: 3em;
+	color:white;
+	font-size: 4.3vw;
+	background-image: url(../img/Illustrator/rubrikskylt.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height:80px;
+	padding-top: calc(5px + 0.03 * (925px - 100vw));
+
 }
 
 .leftbody a, a:link, a:visited{
@@ -820,7 +865,7 @@ li a:hover, a:active {
 	left:50%;
 	position:relative;
 	width: 80px;
-	margin: 100px 0 0 0;
+	margin-top: 70px;
 	box-shadow: 3px 6px 10px #888888;
 }
 .calblock1{
@@ -853,6 +898,10 @@ li a:hover, a:active {
 	padding: 5px 0 0 0;
 	color: #C75243;/*ljusorange*/
 	font-size: 2.5em;
+	background-image: none;
+	width: auto;
+	height: auto;
+	margin:0;
 }
 
 .blogentry{
