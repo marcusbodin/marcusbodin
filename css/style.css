@@ -90,13 +90,12 @@ body.scrolled #main-menu:hover {
 }
 
 ul{
-	transform: translate(-50%, -50%);
-	position: relative;
-	left: 80%;
-	top:50%;
+	position: absolute;
 	overflow: hidden;
 	list-style-type: none;
 	display:table;
+	margin-top: 30px;
+	right: 8%;
 }
 
 header li{
@@ -123,9 +122,9 @@ li a:hover, a:active {
 
 .icon {
 	clear: both;
-	position: relative;
-	left: 5%;
-	top: 7px;
+	position: absolute;
+	left: 8%;
+	top: 27px;
 	width: 50%;
 }
 
@@ -151,16 +150,19 @@ li a:hover, a:active {
 }
 .verticalcenter{
 	position: relative;
-	top: 120px;
+	top: 100px;
 	width:100%;
 }
 
 .verticalcenter img{
-	width:28vw;
-	margin-left: calc(50% - 30vw / 2);
+	max-height:65vh;
+	min-height: 30vw;
+	transform: translate(-50%, 0%);
+	position: relative;
+	left:50%;
 }
 .headtext{
-	margin:40px 0 40px 0;
+	margin: 0 0 40px 0;
 	float:left;
 	transform: translate(-50%, 0%);
 	position: relative;
@@ -182,7 +184,7 @@ li a:hover, a:active {
 	font-size: 3em;
 	font-weight: bolder;
 	text-align: center;
-	margin: -8px 0 10px 0;
+	margin: 0px 0 10px 0;
 }
 
 .headtext h2{
@@ -222,21 +224,21 @@ li a:hover, a:active {
 /* 3-bildsmeny */
 .picgrid {
 	width: 100%;
-	height: 500px;
+	height: 38vw;
 	transform: translate(-50%, 0%);
 	position: relative;
 	left:50%;
     padding-left: ;
     background-color: white;
-    padding: 50px 0 0 calc((100% - 1200px) / 2);
+    padding: 50px 0 0 calc((10%) / 2);
     margin-bottom: 100px;
 }
 
 .picgrid1 {
 	position:relative;
 	float:left;
-	width:400px;
-	height:400px;
+	width:30vw;
+	height:30vw;
 	display:block;
 	overflow:hidden;
 	border-color: #ecece5;
@@ -303,24 +305,27 @@ li a:hover, a:active {
 }
 
 .leftbody{
-	z-index: 0;
 	clear:both;
 	position: relative;
-	overflow:hidden;
+	background-color: white;
+	overflow:auto;
     background: white;
-	width:80%;
-	margin:150px 10% 100px 10%;
-	padding: 170px 0 50px 0;
-} 
+    margin: 100px 10% 100px 10%;
+    padding-top: 220px;
+}
 
 .leftbody h1{
-	
+	margin: 80px 10% 10px 10%;
 	text-align: center;
 	color:white;
-	font-size: 3.1em;
-	width: 100%;
-	height:180px;
-	padding-bottom: 20px;
+	font-size: 4.3vw;
+	background-image: url(../img/Illustrator/rubrikskylt.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height:80px;
+	padding-top: calc(5px + 0.03 * (925px - 100vw));
+
 }
 
 .leftbody a, a:link, a:visited{
@@ -333,6 +338,49 @@ li a:hover, a:active {
 
 .leftbody a:hover, a:active {
 	color:#C75243;/*ljusorange*/
+}
+
+.leftbody1{ /*ruta*/
+	clear:both;
+	margin: 40px 15% 60px 15%;
+	overflow:hidden;
+}
+.leftbody2 { /*bild*/
+	display: inline-block;
+	transform: translate(-50%, 0%);
+	position:relative;
+	left:50%;
+	margin: 20px 0 20px 0;
+}
+.leftbody2 img{
+	max-height:100px;
+	max-width: 200px;
+	padding:20px;
+}
+.leftbody3{ /*text*/
+	overflow:hidden;
+}
+
+.leftbody3 h2{
+	text-align: center;
+	color:#3b6d87; /*mörkblå*/
+	font-size: 2em;
+	margin-bottom: 5px;
+}
+
+.leftbody3 h3{
+	font-weight: bold;
+	text-align: center;
+	color:#333333; /*mörkgrå*/
+	font-size: 1.3em;
+	margin-bottom: 10px;
+}
+
+.leftbody3 p{
+	font-size: 1.3em;
+	text-align: center;
+	color:#333333; /*mörkgrå*/
+	font-weight: normal; 
 }
 
 .blogentry{
@@ -354,57 +402,6 @@ li a:hover, a:active {
 	margin:0;
 	font-weight: normal;
 	font-size: 1.3em;
-}
-
-.leftbody1{ /*ruta*/
-	clear:both;
-	margin: 20px 20% 15px 20%;
-	height: 200px;
-	overflow:hidden;
-}
-.leftbody2 { /*bild*/
-	float:left;
-	transform: translate(0%, -50%);
-	position:relative;
-	top:50%;
-	width:200px;
-}
-.leftbody2 img{
-	transform: translate(-50%, 0%);
-	position:relative;
-	left:50%;
-	max-height:100px;
-	max-width: 200px;
-	padding:20px;
-}
-.leftbody3{ /*text*/
-	padding: 0 0 0 40px;
-	overflow:hidden;
-	transform: translate(0%, -50%);
-	position:relative;
-	top:50%;
-}
-
-.leftbody3 h2{
-	text-align: left;
-	color:#3b6d87; /*mörkblå*/
-	font-size: 1.2em;
-	margin-bottom: 5px;
-}
-
-.leftbody3 h3{
-	font-weight: bolder;
-	text-align: left;
-	color:#333333; /*mörkgrå*/
-	font-size: 1em;
-	margin-bottom: 10px;
-}
-
-.leftbody3 p{
-	font-size: 1em;
-	text-align: left;
-	color:#333333; /*mörkgrå*/
-	font-weight: normal; 
 }
 
 .calblock{
