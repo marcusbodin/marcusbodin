@@ -738,7 +738,7 @@ li a:hover, a:active {
 	width:1000px;
 	height: 350px;
     background-color: #C75243;/*ljusorange*/
-    padding: 40px 0 0 calc(50% - 350px * 1.5 - 20px);
+    padding: 40px 0 0 calc(500px - 250px * 1.5 - 30px);
 }
 
 .picgrid1 {
@@ -798,7 +798,6 @@ li a:hover, a:active {
     margin: 0;
     padding: 50px 0 50px 0;
    	overflow: hidden;
-   	max-width:80%;
    	width: 1000px;
 }
 
@@ -861,6 +860,7 @@ li a:hover, a:active {
 	position:relative;
 	left:50%;
 	margin: 0 0 20px 0;
+	background-color:white;
 }
 .leftbody2 img{
 	max-height:100px;
