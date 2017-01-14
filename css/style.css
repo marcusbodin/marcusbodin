@@ -393,7 +393,7 @@ li a:hover, a:active {
 }
 
 .blogentry{
-	margin: 0 20% 0 20%;
+	margin: -25px 20% 0 20%;
 	overflow:hidden;
 }
 
@@ -895,7 +895,7 @@ li a:hover, a:active {
 }
 
 .blogentry{
-	margin: 0 20% 0 20%;
+	margin: -25px 20% 0 20%;
 	overflow:hidden;
 }
 
