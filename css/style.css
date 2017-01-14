@@ -73,7 +73,7 @@ header{
 	height:8vh;
 	width: 8vh;
 	position:fixed;
-	right:10px;
+	right:40px;
 	bottom:20px;
 	z-index: 100;
 	display:none;
@@ -344,6 +344,7 @@ li a:hover, a:active {
 	left:50%;
 	font-weight: lighter;
 	font-size: 3em;
+	margin-bottom: -60px;
 
 }
 
@@ -421,7 +422,7 @@ li a:hover, a:active {
 	left:50%;
 	position:relative;
 	width: 80px;
-	margin: 90px 0 0 0;
+	margin: 70px 0 0 0;
 }
 .calblock1{
 	display:inline-block;
