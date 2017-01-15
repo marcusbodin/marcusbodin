@@ -643,7 +643,7 @@ li a:hover, a:active {
 	transform: translate(-50%, 0%);
 	position: relative;
 	left:50%;
-	width: 1000px;
+	width: 100%;
 	background: #333333; /*mörkgrå*/
 	background-image: url(../img/designwork.png);
 	background-size:cover;
