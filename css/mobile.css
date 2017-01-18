@@ -48,7 +48,7 @@ a{
 body {
 	overflow-x: hidden;
 	background-color: #F3F5F6; /*mörkgrå*/;
-	width: 100%;
+	width: 107%;
 }
 header{
 	padding:0;
@@ -59,7 +59,7 @@ header{
 	transform: translate(-50%, 0%);
 	position: relative;
 	left:50%;
-	width:100vw;
+	width:107%;
 	height:80px;
 	/*background-color: #333333; /*mörkgrå*/
 	margin-bottom:-4px;
@@ -376,7 +376,7 @@ li a:hover, a:active {
 	transform: translate(-50%, 0%);
 	position:relative;
 	left:50%;
-	font-weight: lighter;
+	font-weight: bolder;
 	font-size: 2em;
 	color: #333333; /*Mörkgrå*/
 	margin: 40px 0 30px 0;
@@ -428,7 +428,7 @@ li a:hover, a:active {
 
 .blogentry{
 	position: relative;
-	margin: 0px 20% 80px 20%;
+	margin: 0px 10% 50px 10%;
 	overflow:hidden;
 	background-color: none;
 	padding: 0px;
@@ -454,7 +454,7 @@ li a:hover, a:active {
 .calblock{
 	clear:both;
 	position:relative;
-	left: 20%;
+	left: 10%;
 	margin: 0 0 10px 0;
 }
 .calblock p{

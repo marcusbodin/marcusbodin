@@ -9,7 +9,7 @@ $(document).ready(function(e){
 
 	btt.on('click', function(){
 		$('html, body').animate({
-			scrollTop: 0
+			scrollTop: 710
 		}, 500);
 
 		e.preventDefault();

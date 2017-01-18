@@ -358,9 +358,9 @@ li a:hover, a:active {
 	transform: translate(-50%, 0%);
 	position:relative;
 	left:50%;
-	font-weight: lighter;
+	font-weight: bolder;
 	font-size: 3em;
-	margin: 30px 0 -200px 0;
+	margin: 30px 0 30px 0;
 	color: #333333; /*mörkgrå*/;
 }
 
@@ -466,7 +466,7 @@ li a:hover, a:active {
 	clear:both;
 	position:relative;
 	left: 20%;
-	margin: 70px 0 10px 0;
+	margin: 0 0 10px 0;
 }
 .calblock p{
 	padding: 0;
