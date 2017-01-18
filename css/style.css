@@ -240,7 +240,7 @@ li a:hover, a:active {
 	max-width: 100%;
 	height: 350px;
     background-color: #C75243;/*ljusorange*/
-    padding: 40px 0 0 calc(600px - 250px * 1.5 - 30px);
+    padding: 40px 0 0 calc(750px - 250px * 1.5 - 30px);
 }
 
 .picgrid1 {
