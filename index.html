@@ -4,7 +4,10 @@
 <meta charset="utf-8" name="viewport" content="width=device-width">
 <title>Marcus Bodin</title>
 </head>
-<link rel="stylesheet" href="css\style.css">
+
+<link rel="stylesheet" type="text/css" media="screen and (min-device-width: 901px)" href="css/style.css" />
+
+<link rel="stylesheet" type="text/css" media="screen and (min-device-width: 320px) and (max-device-width: 900px)" href="css/mobile.css" />
 
 <header>
 	<a name="top"></a> 
@@ -34,7 +37,7 @@
 		</div>
 	</div>
 
-	<div class="blurpic">
+	<div class="blurpic" id="design">
 
 		<div class = "verticalcenter">
 			<img src="img\Marcus_vit.png">
@@ -48,12 +51,8 @@
 </header>
 <body>
 	<a name="bodystart"></a> 
-	<div class="centerbody">
-		<!--<h1>Learning Some New Stuff</h1>-->
-		<p>Welcome to my portfolio website!<br/><br/>I made this site to learn coding in html, css and javascript. Hopefully it will evolve to something great over time. On this site I will publish some of my work, projects and thoughts. Don't hesitate to contact me with any inquiries.</p>
-	</div>
 	<div class="picgrid">
-		<div class="picgrid1"> 
+		<div class="picgrid1" style="margin-left: calc(50% - 250px * 1.5 - 30px)"> 
 			<a href="#blog">
 				<img src="img\Illustrator\Other.svg" alt="">
 				<h1>BLOG</h1>
@@ -76,20 +75,16 @@
 	<!--BLOG-->
 	<a name="blog"></a>
 	</div>
-	<div class="leftbody" id="blue">		
-
+	<div class= "title" id="blog">
 		<h1>Blog</h1>
+	</div>
+	<div class="leftbody" id="grad">		
 
 		<h2>2017</h2>
 
 		<!--BLOGENTRY-->
 		<div class="calblock">
-			<div class="calblock1">
-				<p>January</p>
-			</div>
-			<div class="calblock2">
-				<h1>14</h1>
-			</div>
+			<p>January 14th</p>
 		</div>
 		<div class="blogentry">
 			<h2>New adventures ahead!</h2>
@@ -109,12 +104,7 @@
 
 		<!--BLOGENTRY-->
 		<div class="calblock">
-			<div class="calblock1">
-				<p>December</p>
-			</div>
-			<div class="calblock2">
-				<h1>15</h1>
-			</div>
+			<p>December 15th</p>
 		</div>
 		<div class="blogentry">
 			<h2>I think I'm getting the hang of this...</h2>
@@ -130,8 +120,12 @@
 
 	<!--WORK-->	
 	<a name="workexperience"></a>
-	<div class="leftbody" id="orange">
-		<h1>WORK EXPERIENCE</h1>
+
+	<div class= "title" id="workexperience">
+		<h1>Work Experience</h1>
+	</div>
+
+	<div class="leftbody" id="grad">	
 
 		<!--Combitech -->
 		<div class="leftbody1">
@@ -173,8 +167,12 @@
 
 	<!--EDUCATION-->
 	<a name="education"></a>
-	<div class="leftbody" id="blue">
-		<h1>EDUCATION</h1>
+
+	<div class= "title" id="education">
+		<h1>Education</h1>
+	</div>
+
+	<div class="leftbody" id="grad">
 
 		<!--LIU MASTER -->
 		<div class="leftbody1">
