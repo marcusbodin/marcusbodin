@@ -48,6 +48,7 @@ a{
 body {
 	overflow-x: hidden;
 	background-color: #F3F5F6; /*mörkgrå*/;
+	width: 100%;
 }
 header{
 	padding:0;
@@ -357,14 +358,6 @@ li a:hover, a:active {
 
 .leftbody a:hover, a:active {
 	color:#C75243;/*ljusorange*/
-}
-
-.leftbody hr{
-	transform: translate(-50%, 0%);
-	position: relative;
-	left:50%;
-	color:white;
-	width: 800px;
 }
 
 .leftbody h1{
