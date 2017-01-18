@@ -48,7 +48,7 @@ a{
 body {
 	overflow-x: hidden;
 	background-color: #F3F5F6; /*mörkgrå*/;
-	width: 107%;
+	width: 100%;
 }
 header{
 	padding:0;
@@ -59,7 +59,7 @@ header{
 	transform: translate(-50%, 0%);
 	position: relative;
 	left:50%;
-	width:107%;
+	width:100%;
 	height:80px;
 	/*background-color: #333333; /*mörkgrå*/
 	margin-bottom:-4px;
@@ -89,7 +89,7 @@ body.scrolled #main-menu:hover {
 }
 
 .icon {
-	margin: 10px 0 0 calc(50% - 50px * 2.5);
+	margin: 10px 0 0 calc(50% - 50px * 2.75);
 }
 
 .icon img {
@@ -308,7 +308,7 @@ li a:hover, a:active {
 	top: 50%;
 	left: 50%;	
 	color: white;
-	font-size: 4em;
+	font-size: 3em;
 	text-align: center;
 }
 
@@ -331,7 +331,7 @@ li a:hover, a:active {
 	clear:both;
 	overflow:auto;
     margin: 0;
-    padding: 0;
+    padding: 10px 0 0 0;
    	overflow: hidden;
    	width: 100%;
 }
@@ -379,7 +379,7 @@ li a:hover, a:active {
 	font-weight: bolder;
 	font-size: 2em;
 	color: #333333; /*Mörkgrå*/
-	margin: 40px 0 30px 0;
+	margin: 20px 0 30px 0;
 }
 
 .leftbody1{ /*ruta*/
@@ -485,13 +485,13 @@ footer{
 .leftcolumn h2{
 	text-align: center;
 	margin: 60px 0 0 0;
-	color:gray;
+	color:white;
 }
 
 .leftcolumn p{
 	text-align: center;
 	margin: 10px 0 10px 0;
-	color:gray;
+	color:white;
 }
 
 .centercolumn{
@@ -504,12 +504,12 @@ footer{
 	text-align: center;
 	margin: 30px 0 0 0;
 	width:100%;
-	color: gray;
+	color: white;
 }
 .centercolumn p{
 	text-align: center;
 	margin: 10px 0 10px 0;
-	color:gray;
+	color:white;
 }
 
 .rightcolumn{
@@ -520,17 +520,17 @@ footer{
 
 .rightcolumn h2{
 	text-align: right;
-	color:gray;
+	color:white;
 }
 
 .rightcolumn p{
 	text-align: center;
 	margin: 30px 0 60px 0;
-	color: gray;
+	color: white;
 }
 .leftcolumn a:link, a:visited{
 	text-decoration: none;
-	color: #3b6d87;
+	color: white;
 	font-weight: lighter;
 }
 
