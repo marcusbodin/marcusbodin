@@ -439,7 +439,7 @@ li a:hover, a:active {
 
 .blogentry{
 	position: relative;
-	margin: 0px 20% 30px 20%;
+	margin: 0px 20% 80px 20%;
 	overflow:hidden;
 	background-color: none;
 	padding: 0px;
@@ -460,6 +460,14 @@ li a:hover, a:active {
 	font-weight: lighter;
 	font-size: 1.1em;
 	color: #333333; /*Mörkgrå*/
+}
+
+.blogpic{
+	max-height: 300px;
+	max-width: 500px;
+	transform: translate(-50%, 0%);
+	position: relative;
+	left: 50%;	
 }
 
 .calblock{
