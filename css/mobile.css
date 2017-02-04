@@ -123,7 +123,7 @@ li a:link {
 	text-decoration: none;
 	color: white;
 	text-align: center;
-	font-size: 1em;
+	font-size: 0.8em;
 	font-weight: bolder;
 }
 
@@ -432,6 +432,14 @@ li a:hover, a:active {
 	overflow:hidden;
 	background-color: none;
 	padding: 0px;
+}
+
+.blogpic{
+	max-height: 300px;
+	max-width: 80%;
+	transform: translate(-50%, 0%);
+	position: relative;
+	left: 50%;	
 }
 
 .blogentry h2{
