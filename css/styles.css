@@ -258,11 +258,11 @@ div.number{
       }
     h3{
       margin:0 0 10px 0;
-      font-size:4vw;
+      font-size:4.7vw;
     }
     p{
       font-size:4vw;
-      margin:20px 0 30px 0;
+      margin:70px 0;
     }
     figure.portrait{
       width:100vw;
@@ -276,9 +276,10 @@ div.number{
       height:auto;
     }
     div#icon-box{
-      top:20px;
-      left:calc(100% - 10vw);
-      width:10vw;
+      position:fixed;
+      top:40px;
+      left:calc(100% - 17vw);
+      width:17vw;
       border-radius: 1.5vw 0 0 1.5vw;
       /*flex parent*/
       display:flex;
@@ -287,11 +288,11 @@ div.number{
       align-items: center;
     }
     div#icon-box > a{
-      width:5vw;
-      margin:1vw;
+      width:7vw;
+      margin:2vw;
     }
     div.text{
-      padding: 20px 5vw;
+      padding: 60px 5vw;
       height:auto;
     }
     article#description{
@@ -322,10 +323,13 @@ div.number{
       height:100%;
     }
     article.box > h3{
-      font-size:3vw;
+      font-size:4vw;
     }
     article.box > p{
-      font-size:2.6vw;
+      font-size:3vw;
+    }
+    .number>a{
+      font-size:8vw;
     }
 }
 /* Landscape */
