@@ -250,19 +250,19 @@ div.number{
     }
     h1{
       font-size: 12vw;
-      margin:0 0 10px 0;
+      margin:0 0 4vw 0;
       }
     h2{
-      margin:0 0 10px 0;
+      margin:0 0 4vw 0;
       font-size:4vw;
       }
     h3{
-      margin:0 0 10px 0;
+      margin:0 0 4vw 0;
       font-size:4.7vw;
     }
     p{
       font-size:4vw;
-      margin:70px 0;
+      margin:10vw 0;
     }
     figure.portrait{
       width:100vw;
@@ -277,7 +277,7 @@ div.number{
     }
     div#icon-box{
       position:fixed;
-      top:40px;
+      top:4vw;
       left:calc(100% - 17vw);
       width:17vw;
       border-radius: 1.5vw 0 0 1.5vw;
@@ -289,7 +289,7 @@ div.number{
     }
     div#icon-box > a{
       width:7vw;
-      margin:2vw;
+      margin:3vw;
     }
     div.text{
       padding: 60px 5vw;
@@ -307,13 +307,11 @@ div.number{
       margin-left:-5vw;
       margin-right:-5vw;
       padding:0;
-      height:auto;
     }
-
     article.boxes > a{
       /*flex child properties*/
       flex: 0 0 75%;
-      height:200px;
+      height:40vw;
     }
     article.box{
       /*flex parent properties*/
@@ -328,6 +326,12 @@ div.number{
     article.box > p{
       font-size:3vw;
     }
+    div#more{
+      justify-content: center;
+    }
+    #more>a{
+      font-size: 4vw;
+      margin:2vw 0;    }
     .number>a{
       font-size:8vw;
     }
