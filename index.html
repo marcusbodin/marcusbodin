@@ -1,106 +1,69 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Marcus Bodin</title>
-</head>
-
-<link rel="stylesheet" type="text/css" media="screen and (min-device-width: 901px)" href="css/style.css" />
-
-<link rel="stylesheet" type="text/css" media="screen and (max-device-width: 900px)" href="css/mobile.css" />
-
-<header>
-
-	<div class="menubar" id="main-menu">
-		<ul>
-			<li><a href="index.html" style=" color: #3b6d87;">HOME</a></li>
-			<li><a href="blog.html">BLOG</a></li>
-			<li><a href="work.html">WORK</a></li>
-			<li><a href="education.html">EDUCATION</a></li>
-			<li><a href="music.html">MUSIC</a></li>
-			<li><a href="#footer">CONTACT</a></li>
-
-		</ul>
-		<div class="icon">
-			<a href="https://www.linkedin.com/in/bodinmarcus" target="_blank">
-				<img src="img\Illustrator\linkedin.svg" alt="">
-			</a>
-			<a href="https://www.facebook.com/marcus.bodin.5" target="_blank">
-				<img src="img\Illustrator\facebook.svg" alt="">
-			</a>						
-			<a href="https://twitter.com/Macstah" target="_blank">
-				<img src="img\Illustrator\twitter.svg" alt="">
-			</a>
-			<a href="https://www.instagram.com/marcusbodin/" target="_blank">
-				<img src="img\Illustrator\instagram.svg" alt="">
-			</a>			
-			<a href="mailto: marcus.v.bodin@gmail.com?" target="_top">
-				<img src="img\Illustrator\mail.svg" alt="">
-			</a>
-		</div>
-	</div>
-
-	<div class="blurpic" id="design">
-
-		<div class = "verticalcenter">
-			<img src="img\Marcus_vit.png">
-		</div>
-		<div class = "headtext">
-			<h1>Hi, <a style="color:#C75243; /*orange*/;">I'm&nbsp;Marcus</a></h1>
-			<h2>- a product development engineer with a passion for developing new services and products. <br/><br/>
-			Take a look at my <a href="pdf/Marcus Bodin_CV_English.pdf" target="_blank">Resume</a> to see what I've been up to or just scroll down to see some other stuff.</h2>
-		</div>
-	</div>
-</header>
+<meta charset="UTF-8"> 
+<link rel="stylesheet" href="css/styles.css">
 <body>
-	<a name="top"></a> 
-	<div class="picgrid">
-		<div class="picgrid1" style="margin-left: calc(50% - 250px * 1.5 - 30px)"> 
-			<a href="blog.html">
-				<img src="img\Illustrator\Other.svg" alt="">
-				<h1>BLOG</h1>
-			</a>
-		</div>
-		<div class="picgrid1">
-			<a href="#workexperience">
-				<img src="img\Illustrator\Work.svg" alt="">
-				<h1>WORK EXPERIENCE</h1>
-			</a>
-		</div>
-		<div class="picgrid1">
-			<a href="#education">
-				<img src="img\Illustrator\Education.svg" alt="">
-				<h1>EDUCATION</h1>
-			</a>
-		</div>
-	</div>
-
-		<a href="#top" class="backtotop">
-			<img src="img\Illustrator\backtotop.svg">
-		</a>
-
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	<script src="js/script.js"></script>
-
+  <main>
+    <figure class="portrait">
+      <img src="img/Mbodin.jpg">
+      <div id="icon-box">
+        <a href="https://www.linkedin.com/in/bodinmarcus" title="LinkedIn"><img src="img/linkedin.svg" id="img-1"></a>
+        <a href="mailto:marcus.v.bodin@gmail.com" title="Email me"><img src="img/mail.svg" id="img-2"></a>
+      </div>
+    </figure>
+    <article id="description">
+      <div class="text">
+        <div>
+          <h1>
+            Marcus Bodin
+          </h1>
+          <h2>
+            It project manager with an eye for detail
+          </h2>
+        </div>
+        <div>
+          <p>
+            Hi, I'm Marcus. Welcome to my site! I've been gathering the result of my work here so that it'll be easier for you to get a hang of who I am and what I do. Check it out and please don't hesitate to contact me.
+          </p>
+        </div>
+        <div>
+          <h3>Selected Work</h3>
+          <article class="boxes">
+            <a href="http://marcusbodin.com/">
+              <article class="box" id="box-1">
+                <h3>Project Title</h3>
+                <p>A project where I did stuff and then some other stuff. Great result etc.</p>
+              </article>
+            </a>
+            <a href="http://marcusbodin.com/">
+              <article class="box" id="box-2">
+                <h3>Project Title</h3>
+                <p>A project where I did stuff and then some other stuff. Great result etc.</p>
+              </article>
+            </a>
+            <a href="http://marcusbodin.com/">
+              <article class="box" id="box-3">
+                <h3>Project Title</h3>
+                <p>A project where I did stuff and then some other stuff. Great result etc.</p>
+              </article>
+            </a>
+            <a href="http://marcusbodin.com/">
+              <article class="box" id="box-4">
+                <h3>Project Title</h3>
+                <p>A project where I did stuff and then some other stuff. Great result etc.</p>
+              </article>
+            </a>
+          </article>
+          <div id="more">
+            <a href="page" style="text-align: right;">more></a>
+          </div>
+          <div class="contact">
+            <h3>Quick Contact Info</h3>
+            <div class="number">
+              <a href="tel:+46707507897">+4670 750 78 97</a> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+  </main>
 </body>
-
-<footer>
-	<a name="footer"></a>
-	<div class="leftcolumn">
-		<h2>NAVIGATE</h2>
-		<p>
-		<a href="index.html">Home</a><br/>
-		<a href="https://www.facebook.com/marcus.bodin.5" target="_blank">Facebook</a><br/>
-		<a href="https://se.linkedin.com/in/bodinmarcus/en" target="_blank">LinkedIn</a><br/>
-		<a href="https://www.instagram.com/marcusbodin/" target="_blank">Instagram</a><br/>
-		<a href="https://twitter.com/Macstah" target="_blank">Twitter</a></p>
-	</div>
-	<div class="centercolumn">
-		<h2>CONTACT</h2>
-		<p>E-mail: marcus.v.bodin@gmail.com<br/>Phone: +4670 750 78 97<br/>Address: Vasavägen 23b</p>
-	</div>
-	<div class="rightcolumn">
-		<p>&copy; Marcus Bodin 2016</p>
-	</div>
-</footer>
-</html>
