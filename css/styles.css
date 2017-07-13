@@ -1,6 +1,15 @@
+html{
+  overflow:hidden;
+}
 body{
   margin:0;
   padding:0;
+  box-sizing: border-box;
+  height: 100vh;
+  overflow:hidden;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 @font-face {
     font-family: 'ProximaNova';
@@ -27,8 +36,8 @@ h1{
   font-family: "ProximaNova";
   font-weight: 600;
   text-align:center;
-  font-size: 4em;
-  margin:0 0 10px 0;
+  font-size: 6vw;
+  margin:0 0 1vh 0;
   color:#333333;
 }
 h2{
@@ -36,23 +45,23 @@ h2{
   font-weight: 600;
   text-transform: uppercase;
   text-align: center;
-  margin:0 0 10px 0;
+  margin:0 0 4vh 0;
   color: #333333;
-  font-size:1em;
+  font-size:1.5vw;
 }
 h3{
   font-family: "ProximaNova";
   font-weight: 600;
   text-align: center;
-  margin:0 0 10px 0;
+  margin:0 0 2vh 0;
   color:#333333;
-  font-size:1em;
+  font-size:1.5vw;
 }
 p{
   font-family: "ProximaNova";
   font-weight: 400;
-  font-size:0.9em;
-  margin:20px 0 30px 0;
+  font-size:1.1vw;
+  margin:4vh 0 8vh 0;
   text-align:justify;
   color:#666666;
 }
@@ -74,14 +83,14 @@ figure.portrait{
   flex:0 1 40%;
 }
 figure.portrait > img{
-  height:100vh;
+  height:100%;
   width:40vw;
   object-fit: cover;
   object-position:center center;
 }
-div#icon-box{
+section#icon-box{
   position: absolute;
-  top:50px;
+  top:8vh;
   left:0;
   height:auto;
   width:4vw;
@@ -94,37 +103,99 @@ div#icon-box{
   justify-content: center;
   align-items: center;
 }
-div#icon-box > a{
+section#icon-box > a{
   width:2vw;
   margin:0.4vw;
 }
-div.text{
-  padding: 50px 15%;
-  overflow:auto;
-}
 article#description{
-  height:100vh;
+  padding:4vw 8vw;
+  overflow: auto;
+  height:100%;
   /*flex child*/
   flex:0 1 auto;
   /*flex parent*/
   display:flex;
   flex-flow:column;
-  justify-content: center;
+  justify-content: flex-start;
+}
+article.text{
+  flex:0 0 auto;
 }
 article.boxes{
   display:flex;
   flex-direction:row;
-  overflow:hidden;
   width:100%;
   flex-wrap: wrap;
+  flex:0 0 auto;
 }
 
-article.boxes > a{
-  /*flex child properties*/
-  flex: 0 0 50%;
-  height:100px;
-  overflow: hidden;
+/*POPUP STYLING*/
+
+/* Popup container */
+article.popup {
+    cursor: pointer;
+    height:100%;
+    padding: 5% 10%;
+    overflow:hidden;
+    /*flex child properties*/
+    flex: 0 0 50%;
+    /*flex parent properties*/
+    display:flex;
+    flex-flow:column;
+    justify-content: center;
+    background-color:#1c1d2f; /*dark blue**/
+    border:1px solid white;
 }
+article.popup:hover{
+  background-color:#33cc99; /*green*/
+}
+/* The actual popup (appears on top) */
+.popup .popuptext {
+    visibility: hidden;
+    width: 80vw;
+    height:80vh;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8vh 8vw;
+    position: fixed;
+    z-index: 1;
+    bottom: 10vh;
+    left: 17.5vw;
+    margin-left: -80px;
+}
+
+.popup .popuptext > h3{
+  color:white;
+  font-size: 3vw;
+}
+
+.popup .popuptext > p{
+  color:white;
+  text-align: center;
+  font-size: 1.5vw;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+/*END POPUP STYLING*/
+
 article.box{
   height:100%;
   padding: 0 45px;
@@ -133,60 +204,50 @@ article.box{
   flex-flow:column;
   justify-content: center;
 }
-article#box-1{
-  background-color:#333333;
-}
-article#box-2{
-  background-color:#33cc99; /*green*/
-}
-article#box-3{
-  background-color:#1c1d2f; /*dark blue**/
-}
-article#box-4{
-  background-color:#666666;
-}
-.box>h3{
+article.popup > h3{
   color:white;
   text-decoration: none;
   text-align:left;
-  font-size: 0.8em;
+  font-size: 1.1vw;
 }
-.box>p{
+article.popup > p{
   color:white;
   text-decoration: none;
-  font-size: 0.8em;
+  font-weight: 200;
   overflow:hidden;
   text-overflow: ellipsis;
   min-width: 0;
   text-align: left;
   margin:0;
 }
-div#more{
+section#more{
+  flex:0 0 auto;
   display:flex;
   flex-flow: row;
   justify-content: flex-end;
 }
-#more>a{
+section#more>a{
   font-family: "ProximaNova";
   font-weight: 400;
-  color:003399;
-  font-size: 0.9em;
-  margin-top:5px;
-  margin-right:5px;
+  color:#1c1d2f; /*dark blue**/
+  font-size: 1.1vw;
+  margin-top:1vh;
+  margin-right:0.7vw;
 }
-#more>a:visited{
-  color:#003399;
+section#more>a:visited{
+  color:#1c1d2f; /*dark blue**/
 }
-#more>a:hover{
+section#more>a:hover{
   color:#33cc99;
 }
-div.contact{
-  margin-top:40px;
+article.contact{
+  margin-top:7vh;
 }
-div.number{
+section.number{
+  flex:0 0 auto;
   text-align: center;
 }
-.number>a{
+section.number > a{
   font-family: "ProximaNova";
   font-weight: 200;
   text-align: center;
@@ -275,7 +336,7 @@ div.number{
       width:100vw;
       height:auto;
     }
-    div#icon-box{
+    section#icon-box{
       position:fixed;
       top:4vw;
       left:calc(100% - 17vw);
@@ -299,6 +360,7 @@ div.number{
       justify-content: flex-start;
       height:auto;
       overflow: auto;
+      padding:50px;
     }
     article.boxes{
       overflow:auto;
@@ -311,7 +373,7 @@ div.number{
     article.boxes > a{
       /*flex child properties*/
       flex: 0 0 75%;
-      height:40vw;
+      height:70vw;
     }
     article.box{
       /*flex parent properties*/

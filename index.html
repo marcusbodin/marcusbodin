@@ -1,69 +1,66 @@
 <!DOCTYPE html>
 <meta charset="UTF-8"> 
 <link rel="stylesheet" href="css/styles.css">
-<body>
-  <main>
-    <figure class="portrait">
-      <img src="img/Mbodin.jpg">
-      <div id="icon-box">
-        <a href="https://www.linkedin.com/in/bodinmarcus" title="LinkedIn"><img src="img/linkedin.svg" id="img-1"></a>
-        <a href="mailto:marcus.v.bodin@gmail.com" title="Email me"><img src="img/mail.svg" id="img-2"></a>
-      </div>
-    </figure>
-    <article id="description">
-      <div class="text">
-        <div>
-          <h1>
-            Marcus Bodin
-          </h1>
-          <h2>
-            It project manager with an eye for detail
-          </h2>
-        </div>
-        <div>
-          <p>
-            Hi, I'm Marcus. Welcome to my site! I've been gathering the result of my work here so that it'll be easier for you to get a hang of who I am and what I do. Check it out and please don't hesitate to contact me.
-          </p>
-        </div>
-        <div>
-          <h3>Selected Work</h3>
-          <article class="boxes">
-            <a href="http://marcusbodin.com/">
-              <article class="box" id="box-1">
-                <h3>Project Title</h3>
-                <p>A project where I did stuff and then some other stuff. Great result etc.</p>
-              </article>
-            </a>
-            <a href="http://marcusbodin.com/">
-              <article class="box" id="box-2">
-                <h3>Project Title</h3>
-                <p>A project where I did stuff and then some other stuff. Great result etc.</p>
-              </article>
-            </a>
-            <a href="http://marcusbodin.com/">
-              <article class="box" id="box-3">
-                <h3>Project Title</h3>
-                <p>A project where I did stuff and then some other stuff. Great result etc.</p>
-              </article>
-            </a>
-            <a href="http://marcusbodin.com/">
-              <article class="box" id="box-4">
-                <h3>Project Title</h3>
-                <p>A project where I did stuff and then some other stuff. Great result etc.</p>
-              </article>
-            </a>
-          </article>
-          <div id="more">
-            <a href="page" style="text-align: right;">more></a>
-          </div>
-          <div class="contact">
-            <h3>Quick Contact Info</h3>
-            <div class="number">
-              <a href="tel:+46707507897">+4670 750 78 97</a> 
-            </div>
-          </div>
-        </div>
-      </div>
-    </article>
-  </main>
-</body>
+<script type="text/javascript" src="js/script.js"></script>
+<html>
+	<body>
+	  	<main>
+	    	<figure class="portrait">
+	      		<img src="img/Mbodin.jpg">
+		      	<section id="icon-box">
+		        	<a href="https://www.linkedin.com/in/bodinmarcus" title="LinkedIn"><img src="img/linkedin.svg" id="img-1"></a>
+		      		<a href="mailto:marcus.v.bodin@gmail.com" title="Email me"><img src="img/mail.svg" id="img-2"></a>
+		      	</section>
+	    	</figure>
+		    <article id="description">
+		        <article class="text">
+		          <h1>
+		            Marcus Bodin
+		          </h1>
+		          <h2>
+		            It project manager with an eye for detail
+		          </h2>
+			       <p>
+			            Hi, I'm Marcus. Welcome to my site! I've been gathering the result of my work here so that it'll be easier for you to get a hang of who I am and what I do. Check it out and please don't hesitate to contact me.
+			       </p>
+		        </article>
+		        <h3>Selected Work</h3>
+				<article class="boxes">
+			    	<article class="popup" onclick="myFunction()">
+			      		<h3>Project Title</h3>
+			        	<p>A project where I did stuff and then some other stuff. Great result etc.</p>
+				  		<span class="popuptext" id="myPopup">
+				  			<h3>Project Title</h3>
+			        		<p>A project where I did stuff and then some other stuff. Great result etc</p>
+				  		</span>
+				  	</article>
+				  	<article class="popup" onclick="myFunction()">
+			      		<h3>Project Title</h3>
+			        	<p>A project where I did stuff and then some other stuff. Great result etc.</p>
+				  		<span class="popuptext" id="myPopup">Popup text...</span>
+				  	</article>
+				  	<article class="popup" onclick="myFunction()">
+			      		<h3>Project Title</h3>
+			        	<p>A project where I did stuff and then some other stuff. Great result etc.</p>
+				  		<span class="popuptext" id="myPopup">Popup text...</span>
+				  	</article>
+				  	<article class="popup" onclick="myFunction()">
+			      		<h3>Project Title</h3>
+			        	<p>A project where I did stuff and then some other stuff. Great result etc.</p>
+				  		<span class="popuptext" id="myPopup">Popup text...</span>
+				  	</article>
+			    </article>
+			    <section id="more">
+			    	<a href="page" style="text-align: right;">more></a>
+			    </section>
+			    <article class="contact">
+			        <h3>Quick Contact Info</h3>
+			        <section class="number">
+			        	<a href="tel:+46707507897">+4670 750 78 97</a> 
+			        </section>
+				</article>
+			</article>
+		</main>
+	</body>
+</html>
+
