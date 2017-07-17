@@ -8,7 +8,7 @@ var hide = "off";
 
 $(window).scroll(function (event) {
     var scroll = $(window).scrollTop();
-    if (scroll > 50 && hide == "off" && window.innerWidth <= 667){
+    if (scroll > 50 && hide == "off" && window.innerWidth <= 667 || scroll > 50 && hide == "off" && window.devicePixelRatio = 2){
 		var myImg = document.getElementById('portrait');
 		if(myImg && myImg.style) {
 		    myImg.style.height = '0vh';
@@ -19,7 +19,7 @@ $(window).scroll(function (event) {
 		    mySec.style.visibility = 'hidden';
 		}
 	}
-	else if (hide == "on" && scroll == 0 && window.innerWidth <= 667){
+	else if (hide == "on" && scroll == 0 && window.innerWidth <= 667 || scroll > 50 && hide == "off" && window.devicePixelRatio = 2){
 		var myImg = document.getElementById('portrait');
 		if(myImg && myImg.style) {
 			myImg.style.height = '50vh';
