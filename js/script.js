@@ -35,7 +35,7 @@ if(window.innerHeight > window.innerWidth){
 }
 
 window.addEventListener('resize', function(){
-    if(window.innerWidth > 667){
+    if(window.innerHeight < window.innerWidth){
 		var myImg = document.getElementById('portrait');
 		if(myImg && myImg.style) {
 			myImg.style.height = '100vh';
