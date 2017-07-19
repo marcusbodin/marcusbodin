@@ -67,28 +67,37 @@ body{
   justify-content:flex-start;
   margin:0;
   padding:0;
+  height:100vh;
   overflow:hidden;
 }
 figure#portrait{
   margin:0;
   padding:0;
+  height:100vh;
+  width:40vw;
   /*flex child*/
+  flex:0 0 40%;
+  overflow:hidden;
 }
 figure#portrait > img{
-  height:100%;
-  width:40vw;
+  min-height:100%;
+  width:100%;
   object-fit: cover;
   object-position:center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%; 
 }
 section#icon-box{
   position: absolute;
   top:8vh;
   left:0;
   height:auto;
-  width:4vw;
-  padding:10px 0;
+  width:auto;
   background-color: #33cc99;
-  border-radius: 0 1.5vw 1.5vw 0;
   /*flex parent*/
   display:flex;
   flex-flow:column;
@@ -96,9 +105,38 @@ section#icon-box{
   align-items: center;
 }
 section#icon-box > a{
-  width:2vw;
-  margin:0.4vw;
+  width:4vw;
+  padding:1vw;
 }
+article#talkbubble{
+  z-index: 2;
+  display:block;
+  background-color:white;
+  position:fixed;
+  bottom:10vh;
+  left: 5vw;
+  padding: 2vw 3vw;
+  text-align: center;
+  content:"";
+  width:30vw;
+  visibility: visible;
+}
+article#talkbubble:before {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: -1vw;
+  left: calc(27vw / 2 - 1.5vw);
+  border: 3vw solid;
+  border-color: white transparent transparent white;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
 article#description{
   padding:4vw 8vw;
   overflow: auto;
@@ -126,11 +164,10 @@ article.boxes{
 /* Popup container */
 article.popup {
     cursor: pointer;
-    height:100%;
-    padding: 5% 10%;
+    padding: 4vh 4vw;
     overflow:hidden;
     /*flex child properties*/
-    flex: 0 0 50%;
+    flex: 1 0 50%;
     /*flex parent properties*/
     display:flex;
     flex-flow:column;
@@ -148,7 +185,7 @@ article.popup:hover{
     height:100vh;
     background-color: rgba(0, 0, 0, 0.7);
     position: fixed;
-    z-index: 1;
+    z-index: 3;
     top: 0;
     left: 0;
     display:flex;
@@ -256,6 +293,7 @@ section.number > a{
   color: #66cc99;
   width:100%;
   margin:0 auto;
+  padding-bottom:5vh;
 }
 
 
@@ -306,6 +344,7 @@ section.number > a{
   and (orientation: portrait) {
     body{
       flex-direction:column;
+      height:auto;
     }
     h1{
       font-size: 13vw;
@@ -333,31 +372,22 @@ section.number > a{
     figure#portrait > img{
       width:100vw;
     }
-    section#icon-box{
-      position:fixed;
-      top:4vw;
-      left: 83vw;
-      width:17vw;
-      border-radius: 1.5vw 0 0 1.5vw;
-      /*flex parent*/
-      display:flex;
-      flex-flow:column;
-      justify-content: center;
-      align-items: center;
-      opacity: 1;
-      transition: opacity 500ms ease-in-out;
-      -moz-transition: opacity 500ms ease-in-out;
-      -webkit-transition: opacity 500ms ease-in-out;
-    }
-    section#icon-box > a{
-      width:7vw;
-      margin:3vw;
-    }
+section#icon-box{
+  top:8vh;
+  left:calc(100vw - 17vw);
+}
+section#icon-box > a{
+  width:17vw;
+  padding:5vw;
+}
+article#talkbubble{
+  visibility: hidden;
+}
     article#description{
       flex:1 1 50%;
       justify-content: flex-start;
       height:auto;
-      overflow: auto;
+      overflow: hidden;
       padding:5vw;
     }
     article.boxes{

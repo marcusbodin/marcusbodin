@@ -14,7 +14,7 @@ var hide = "off";
 		    if (scroll > 50 && hide == "off"){
 				var myImg = document.getElementById('portrait');
 				if(myImg && myImg.style) {
-					var imgHeight = 100 - scroll * 1.5 +"vh";
+					var imgHeight = 20 +"vh";
 					console.log("THE IMAGE HEIGHT IS" + imgHeight)
 				    myImg.style.height = imgHeight;
 				    
