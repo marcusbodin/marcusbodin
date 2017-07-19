@@ -141,7 +141,7 @@ article#talkbubble{
   display:block;
   background-color:white;
   position:fixed;
-  bottom:10vh;
+  bottom:5vh;
   left: 5vw;
   padding: 2vw 3vw;
   text-align: center;
