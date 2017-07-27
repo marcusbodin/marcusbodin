@@ -158,7 +158,15 @@ article.popup {
     width:50%;
     background-color:#1c1d2f; /*dark blue**/
     border:1px solid white;
+    max-height: 20vw;
 }
+
+article.popup >p {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
 article.popup:hover{
   background-color:#33cc99; /*green*/
 }
@@ -233,6 +241,15 @@ article.popup > p{
   text-align: left;
   margin:0;
 }
+
+img #close{
+  height:4vw;
+  position:absolute;
+  top:13vh;
+  left:84vw;
+}
+
+
 article.contact{
   grid-column:2/4;
   grid-row:3/3;
@@ -374,6 +391,11 @@ footer > p{
         border:1px solid white;
         float:none;
         width:100%;
+        padding:6vw 6vw;
+        max-height: 25vh;
+    }
+    article.popupbox{
+      overflow-y:scroll;
     }
 
     article.popup > h3{
@@ -385,6 +407,14 @@ footer > p{
       text-align: left;
       font-size: 5vw;
     }
+
+    img#close{
+      height:10vw;
+      position:absolute;
+      top:13vh;
+      left:76vw;
+    }
+
     section.number > a{
       font-size:10vw;
     }
