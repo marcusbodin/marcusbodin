@@ -38,6 +38,14 @@ section{
 	font-weight: 100;
 }
 
+.ml-auto, .mx-auto{
+	margin:0 !important;
+}
+
+.navbar-collapse{
+	justify-content: center;
+}
+
  @media (max-width:767px){
  	section{padding:75px 0
  	}
@@ -52,15 +60,16 @@ section{
  		sans-serif;font-weight:400;
  		text-transform:uppercase;
  		border:none;
- 		background:#2c3e50
+ 		background:#030612b8
  	}
  	#mainNav a:focus{
  		outline:0;
  	}
  	#mainNav .navbar-brand{
- 		font-size:1.1rem;
+ 		font-size:1.3rem;
  		color:#fff;
  		text-transform: none;
+ 		font-weight: 900;
  	}
  	#mainNav .navbar-brand.active,#mainNav .navbar-brand:active,#mainNav .navbar-brand:focus,#mainNav .navbar-brand:hover{
  		color:#fff;
@@ -124,22 +133,21 @@ section{
 }
 
 header.masthead{
-	padding-top:100px;
-	padding-bottom: 0;
-	text-align:left;
-	color:#4e4e4e;
-	background:#fff;
-}
-header.masthead img{
-	display:block;
-	margin:0;
+	text-align:center;
+	color:#fff;
+	background-image: url('file:/Users/marcusbodin/Dropbox/Privat/Hemsida/Hemsida_v.2/img/MarcusBackground.jpg');
+	background-size: cover;
+	background-position: center center;
+	height:715px;
+	display: flex;
+	align-items: center;
 }
 header.masthead .intro-text .name{
 	font-family:Catamaran,Helvetica,Arial,sans-serif;
 	font-size:2em;
 	font-weight:200;
 	display:block;
-	color: #000;
+	color: #fff;
 	padding:0;
 }
 header.masthead .intro-text .skills{
@@ -148,7 +156,7 @@ header.masthead .intro-text .skills{
 }
 @media (min-width:768px){
 	header.masthead{
-		padding-top:150px;
+		padding-top:0px;
 		padding-bottom:0;
 	}
 	header.masthead .intro-text .name{
@@ -160,7 +168,7 @@ header.masthead .intro-text .skills{
 		font-size:1.5em
 	}
 	#portfolio{
-		background-color: #e4e4e4;
+		background: linear-gradient(white,#e2e2e2);
 		color: #000;
 	}
 	#portfolio .portfolio-item{
@@ -190,7 +198,7 @@ header.masthead .intro-text .skills{
 		background:rgba(24,188,156,.9);
 	}
 	#portfolio .portfolio-item .portfolio-link .caption:hover{opacity:1}#portfolio .portfolio-item .portfolio-link .caption .caption-content{
-		font-size:20px;
+		font-size:30px;
 		position:absolute;
 		top:50%;
 		width:100%;
@@ -209,11 +217,11 @@ header.masthead .intro-text .skills{
 		z-index:2
 	}
 	#about{
-		background-color: #fff;
+		background: linear-gradient(white,#e2e2e2);
 		color: #000;
 	}
 	#contact{
-		background-color: #e4e4e4;
+		background: linear-gradient(white,#e2e2e2);
 		color: #000;
 	}
 }
