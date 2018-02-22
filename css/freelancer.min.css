@@ -135,7 +135,7 @@ section{
 header.masthead{
 	text-align:center;
 	color:#fff;
-	background-image: url('file:/Users/marcusbodin/Dropbox/Privat/Hemsida/Hemsida_v.2/img/MarcusBackground.jpg');
+	background-image: url('/img/MarcusBackground.jpg');
 	background-size: cover;
 	background-position: center center;
 	height:715px;
