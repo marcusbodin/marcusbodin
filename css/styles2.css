@@ -1,0 +1,42 @@
+body{
+	background-color: #e4e4e4;
+	padding: 0 0 0 45px;
+}
+
+h1 {
+	color: #4e4e4e;
+}
+.container{
+}
+.container p{
+	color: #4e4e4e;
+}
+
+.navbar h1, p{
+	color:#355c7d;
+	padding:0;
+	text-align: left;
+}
+
+.jumbotron{
+	padding:0;
+}
+
+.navbar{
+	background-color: #fff;
+	height:100vh;
+}
+
+.projectbox{
+	background-color: #f67280;
+	padding: 10px;
+	border: 5px solid #e4e4e4;
+	height: 20vw;
+	overflow: hidden;
+}
+
+.navbar .img-fluid{
+	width: auto;
+	height: 100vh;
+	overflow: hidden;
+}
